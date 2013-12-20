@@ -1,0 +1,280 @@
+﻿<%@ Master Language="C#" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <style type="text/css" media="all">
+        html,body,h1,h2,h3,h4,h5,h6 
+        {
+            margin: 0px;
+            padding: 0px;
+        }
+        h1 
+        {
+            font-size: 12pt;
+        }
+        html, body 
+        {
+            width: 100%;
+            height: 100%;
+        }
+        .ResponsePanel table
+        {
+            width: 90%;
+            margin: 10px auto;
+            border-top: 1px solid #000;
+            border-left: 1px solid #000;
+        }
+        
+        .ResponsePanel table td, .ResponsePanel table th 
+        {
+            border-bottom: 1px solid #000;
+            border-right: 1px solid #000;
+        }
+    </style>
+    <style type="text/css" media="screen">
+        
+        body 
+        {
+            background: #F1EEE8;
+            font-family: Verdana;
+            font-size: 10pt;
+           
+        }        
+        #header 
+        {
+            border-bottom: 1px solid #999;   
+            background-color: RGB(222, 209, 213);            
+            padding: 0px;
+            height: 114px; 
+        }
+        
+        #header .logo 
+        {
+            width: 170px;
+            height: 114px;
+            background: RGB(230, 219, 223);
+            float: left;
+        }
+        
+        #header .logo img
+        {   
+            width: 80px;
+            height: 114px;
+            float: left;
+            margin: 0px 0px 0px 45px;            
+            filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='./images/logo.png') width:expression(1); height:expression(1);
+        }
+        
+        #header span.title
+        {            
+            display: block;
+            font-weight: bold;
+            font-size: 12pt;
+            padding: 50px 0px 0px 180px;
+        }
+        #body 
+        {
+            margin-top: 10px;
+        }
+        
+        #leftMenu 
+        {
+            border: 1px solid #999;            
+            width: 250px;
+            padding: 10px;
+            margin-top: 30px;
+            float: left;
+        }
+        
+        #content 
+        {
+            margin: 10px 10px 10px 280px;
+            border: 1px solid #999;
+            padding: 10px;
+            
+        }
+    </style>    
+    <style type="text/css" media="print">
+        body 
+        {
+            font-family: Times New Roman;
+            font-size: 10pt;
+        }
+        #header, #leftMenu 
+        {
+            display: none;
+        }
+        #content 
+        {
+            margin: 0px;
+            padding: 0px;
+            border: 0px;
+        }
+    </style>   
+    <asp:ContentPlaceHolder id="headerTempl" runat="server" />
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div id="header">
+
+    <div class="logo"><img src="./images/logo.png" alt="Система отчётов" /></div>
+    <span class="title">Система отчётов г. Псков</span>
+    </div>
+    <div id="body">
+        <div id="leftMenu">
+        <asp:TreeView ID="TreeView1" runat="server" ImageSet="XPFileExplorer" 
+                NodeIndent="15" ShowLines="True" style="margin-right: 29px">
+                <HoverNodeStyle Font-Underline="True" ForeColor="#6666AA" />
+                <Nodes>
+                    <asp:TreeNode Text="Система отчётов" Value="Система отчётов" 
+                        SelectAction="Expand">
+                        
+                        <asp:TreeNode Text="ВНС" SelectAction="Expand">
+						<asp:TreeNode Text="Отчёт по энергопотреблению" NavigateUrl="vnse.aspx"></asp:TreeNode>
+                            <asp:TreeNode Text="ВНС 1" NavigateUrl="vns.aspx?n=1"></asp:TreeNode>
+                            <asp:TreeNode Text="ВНС 2" NavigateUrl="vns.aspx?n=2"></asp:TreeNode>
+                            <asp:TreeNode Text="ВНС 3" NavigateUrl="vns.aspx?n=3"></asp:TreeNode>
+                            <asp:TreeNode Text="ВНС 4" NavigateUrl="vns.aspx?n=4"></asp:TreeNode>
+                            <asp:TreeNode Text="ВНС 5" NavigateUrl="vns.aspx?n=5"></asp:TreeNode>
+                            <asp:TreeNode Text="ВНС 6" NavigateUrl="vns.aspx?n=6"></asp:TreeNode>
+                            <asp:TreeNode Text="ВНС 7" NavigateUrl="vns.aspx?n=7"></asp:TreeNode>
+                            <asp:TreeNode Text="ВНС 8" NavigateUrl="vns.aspx?n=8"></asp:TreeNode>
+                            <asp:TreeNode Text="ВНС 11" NavigateUrl="vns.aspx?n=11"></asp:TreeNode>
+                            <asp:TreeNode Text="ВНС 12" NavigateUrl="vns.aspx?n=12"></asp:TreeNode>
+                            <asp:TreeNode Text="ВНС 13" NavigateUrl="vns.aspx?n=13"></asp:TreeNode>
+                            <asp:TreeNode Text="ВНС 14" NavigateUrl="vns.aspx?n=14"></asp:TreeNode>
+                            <asp:TreeNode Text="ВНС 15" NavigateUrl="vns.aspx?n=15"></asp:TreeNode>
+                            <asp:TreeNode Text="ВНС 16" NavigateUrl="vns.aspx?n=16"></asp:TreeNode>
+                            <asp:TreeNode Text="ВНС 17" NavigateUrl="vns.aspx?n=17"></asp:TreeNode>
+                            <asp:TreeNode Text="ВНС 18" NavigateUrl="vns.aspx?n=18"></asp:TreeNode>
+                            <asp:TreeNode Text="ВНС 20" NavigateUrl="vns.aspx?n=20"></asp:TreeNode>
+                            <asp:TreeNode Text="ВНС 22" NavigateUrl="vns.aspx?n=22"></asp:TreeNode>
+                            <asp:TreeNode Text="ВНС 26" NavigateUrl="vns.aspx?n=26"></asp:TreeNode>
+                            <asp:TreeNode Text="ВНС 27" NavigateUrl="vns.aspx?n=27"></asp:TreeNode>
+                            <asp:TreeNode Text="ВНС 30" NavigateUrl="vns.aspx?n=30"></asp:TreeNode>
+                            <asp:TreeNode Text="ВНС 31" NavigateUrl="vns.aspx?n=31"></asp:TreeNode>
+                            <asp:TreeNode Text="ВНС 32" NavigateUrl="vns.aspx?n=32"></asp:TreeNode>
+                        </asp:TreeNode>
+                        <asp:TreeNode Text="ОСВ" SelectAction="Expand">
+                            <asp:TreeNode Text="ОСВ 2" NavigateUrl="osv.aspx?n=2"></asp:TreeNode>
+                            <asp:TreeNode Text="ОСВ 3" NavigateUrl="osv3.aspx?n=3"></asp:TreeNode>
+                        </asp:TreeNode>
+                        <asp:TreeNode Text="АССИ" SelectAction="Expand">
+                            <asp:TreeNode Text="АССИ 1" NavigateUrl="assi.aspx?n=1" ></asp:TreeNode>
+                            <asp:TreeNode Text="АССИ 2" NavigateUrl="assi.aspx?n=2"></asp:TreeNode>
+                            <asp:TreeNode Text="АССИ 3" NavigateUrl="assi.aspx?n=3"></asp:TreeNode>
+                            <asp:TreeNode Text="АССИ 4" NavigateUrl="assi.aspx?n=4"></asp:TreeNode>
+                            <asp:TreeNode Text="АССИ 5" NavigateUrl="assi.aspx?n=5"></asp:TreeNode>
+                            <asp:TreeNode Text="АССИ 6" NavigateUrl="assi.aspx?n=6"></asp:TreeNode>
+                            <asp:TreeNode Text="АССИ 7" NavigateUrl="assi.aspx?n=7"></asp:TreeNode>
+                            <asp:TreeNode Text="АССИ 8" NavigateUrl="assi.aspx?n=8"></asp:TreeNode>
+                            <asp:TreeNode Text="АССИ 9" NavigateUrl="assi.aspx?n=9"></asp:TreeNode>
+                            <asp:TreeNode Text="АССИ 10"  NavigateUrl="assi.aspx?n=10"></asp:TreeNode>
+							<asp:TreeNode Text="АССИ 11"  NavigateUrl="assi.aspx?n=11"></asp:TreeNode>
+							<asp:TreeNode Text="АССИ 12"  NavigateUrl="assi.aspx?n=12"></asp:TreeNode>
+							<asp:TreeNode Text="АССИ 13"  NavigateUrl="assi.aspx?n=13"></asp:TreeNode>
+							<asp:TreeNode Text="АССИ 14"  NavigateUrl="assi.aspx?n=14"></asp:TreeNode>
+							<asp:TreeNode Text="АССИ 15"  NavigateUrl="assi.aspx?n=15"></asp:TreeNode>
+							<asp:TreeNode Text="АССИ 16"  NavigateUrl="assi.aspx?n=16"></asp:TreeNode>
+							<asp:TreeNode Text="АССИ 17"  NavigateUrl="assi.aspx?n=17"></asp:TreeNode>
+							<asp:TreeNode Text="АССИ 18"  NavigateUrl="assi.aspx?n=18"></asp:TreeNode>
+							<asp:TreeNode Text="АССИ 19"  NavigateUrl="assi.aspx?n=19"></asp:TreeNode>
+							<asp:TreeNode Text="АССИ 20"  NavigateUrl="assi.aspx?n=20"></asp:TreeNode>
+							<asp:TreeNode Text="АССИ 21"  NavigateUrl="assi.aspx?n=21"></asp:TreeNode>
+							<asp:TreeNode Text="АССИ 22"  NavigateUrl="assi.aspx?n=22"></asp:TreeNode>
+							<asp:TreeNode Text="АССИ 23"  NavigateUrl="assi.aspx?n=23"></asp:TreeNode>
+							<asp:TreeNode Text="АССИ 24"  NavigateUrl="assi.aspx?n=24"></asp:TreeNode>
+							<asp:TreeNode Text="АССИ 25"  NavigateUrl="assi.aspx?n=25"></asp:TreeNode>
+							<asp:TreeNode Text="АССИ 26"  NavigateUrl="assi.aspx?n=26"></asp:TreeNode>
+							<asp:TreeNode Text="АССИ 27"  NavigateUrl="assi.aspx?n=27"></asp:TreeNode>
+							<asp:TreeNode Text="АССИ 28"  NavigateUrl="assi.aspx?n=28"></asp:TreeNode>
+							<asp:TreeNode Text="АССИ 29"  NavigateUrl="assi.aspx?n=29"></asp:TreeNode>
+							<asp:TreeNode Text="АССИ 30"  NavigateUrl="assi.aspx?n=30"></asp:TreeNode>
+                        </asp:TreeNode>
+                        <asp:TreeNode Text="Теплосети" SelectAction="Expand">
+                            <asp:TreeNode Text="КОТ №1'Районная'" NavigateUrl="teploseti.aspx?n=1"></asp:TreeNode>
+                            <asp:TreeNode Text="КОТ №2'ПлодоОвощ'" NavigateUrl="teploseti.aspx?n=2"></asp:TreeNode>
+                            <asp:TreeNode Text="КОТ №3'Рижский пр.43А'" NavigateUrl="teploseti.aspx?n=3"></asp:TreeNode>
+                            <asp:TreeNode Text="КОТ №6'13-я Школа'" NavigateUrl="teploseti.aspx?n=4"></asp:TreeNode>
+                            <asp:TreeNode Text="КОТ №7'Школа интернат'" NavigateUrl="teploseti.aspx?n=5"></asp:TreeNode>
+                            <asp:TreeNode Text="КОТ №9'СВПУ'" NavigateUrl="teploseti.aspx?n=6"></asp:TreeNode>
+                            <asp:TreeNode Text="КОТ №10'Тиконд'" NavigateUrl="teploseti.aspx?n=7"></asp:TreeNode>
+                            <asp:TreeNode Text="КОТ №12'Конная 8А'" NavigateUrl="teploseti.aspx?n=8"></asp:TreeNode>
+                            <asp:TreeNode Text="КОТ №13'Народная 33'" NavigateUrl="teploseti.aspx?n=9"></asp:TreeNode>
+                            <asp:TreeNode Text="КОТ №14'Гор. больница'" NavigateUrl="teploseti.aspx?n=10"></asp:TreeNode>
+                            <asp:TreeNode Text="КОТ №17'Коммунальн. 22Б'" NavigateUrl="teploseti.aspx?n=11"></asp:TreeNode>
+                            <asp:TreeNode Text="КОТ №18'КЭЧ'" NavigateUrl="teploseti.aspx?n=12"></asp:TreeNode>
+                            <asp:TreeNode Text="КОТ №20'20-я'" NavigateUrl="teploseti.aspx?n=13"></asp:TreeNode>
+                            <asp:TreeNode Text="КОТ №23'Волкова 3'" NavigateUrl="teploseti.aspx?n=14"></asp:TreeNode>
+                            <asp:TreeNode Text="КОТ-ЦТП №5'Чехова 4А'" NavigateUrl="teploseti.aspx?n=15"></asp:TreeNode>
+                            <asp:TreeNode Text="КОТ-ЦТП №8'Псковкирпич'" NavigateUrl="teploseti.aspx?n=16"></asp:TreeNode>
+                            <asp:TreeNode Text="КОТ-ЦТП №19'Поземского 63'" NavigateUrl="teploseti.aspx?n=17"></asp:TreeNode>
+                            <asp:TreeNode Text="КОТ-ЦТП №22'Первомайская 43'" NavigateUrl="teploseti.aspx?n=18"></asp:TreeNode>
+                            <asp:TreeNode Text="ЦТП №1- 1'Коммунальн.59'" NavigateUrl="teploseti.aspx?n=19"></asp:TreeNode>
+                            <asp:TreeNode Text="ЦТП №1-2'Кузбасс 30А'" NavigateUrl="teploseti.aspx?n=20"></asp:TreeNode>
+                            <asp:TreeNode Text="ЦТП №1- 3'Коммунальн.67'" NavigateUrl="teploseti.aspx?n=21"></asp:TreeNode>
+                            <asp:TreeNode Text="ЦТП №1- 4'Коммунальн.77'" NavigateUrl="teploseti.aspx?n=22"></asp:TreeNode>
+                            <asp:TreeNode Text="ЦТП №1-17'Алехина 1'" NavigateUrl="teploseti.aspx?n=23"></asp:TreeNode>
+                            <asp:TreeNode Text="ЦТП №2-20'Обл. больница'" NavigateUrl="teploseti.aspx?n=24"></asp:TreeNode>
+                            <asp:TreeNode Text="ЦТП №3-14'ул. Труда, 55'" NavigateUrl="teploseti.aspx?n=25"></asp:TreeNode>
+                            <asp:TreeNode Text="ЦТП №3-17'Инженерная 16'" NavigateUrl="teploseti.aspx?n=26"></asp:TreeNode>
+                            <asp:TreeNode Text="ЦТП №4-6'Стахановская 8'" NavigateUrl="teploseti.aspx?n=27"></asp:TreeNode>
+                        </asp:TreeNode>
+                        <asp:TreeNode Text="Телескоп" SelectAction="Expand">
+                        <asp:TreeNode Text="КТ Ул. Аллейная 9А" NavigateUrl="teleskop_kt.aspx?n=1"></asp:TreeNode>
+                            <asp:TreeNode Text="ВНС Ул. Рокоссовского 10" NavigateUrl="teleskop_vns1.aspx?n=2"></asp:TreeNode>
+                            <asp:TreeNode Text="КТ Ул. Киселева 1" NavigateUrl="teleskop_kt.aspx?n=3"></asp:TreeNode>
+                            <asp:TreeNode Text="КТ Ул. Юбилейная 9" NavigateUrl="teleskop_kt.aspx?n=4"></asp:TreeNode>
+                            <asp:TreeNode Text="КТ Ул. Западная 30" NavigateUrl="teleskop_kt.aspx?n=5"></asp:TreeNode>
+                            <asp:TreeNode Text="КТ Крестовское шоссе 96" NavigateUrl="teleskop_kt.aspx?n=6"></asp:TreeNode>
+                            <asp:TreeNode Text="КТ Ул. Мирная 11" NavigateUrl="teleskop_kt.aspx?n=7"></asp:TreeNode>
+                            <asp:TreeNode Text="КТ Ул. Труда 40" NavigateUrl="teleskop_kt.aspx?n=8"></asp:TreeNode>
+                            <asp:TreeNode Text="КТ Ул. Николая Васильева 12А" NavigateUrl="teleskop_kt.aspx?n=9"></asp:TreeNode>
+                            <asp:TreeNode Text="ВНС Лесхоз 1" NavigateUrl="teleskop_vns10.aspx?n=10"></asp:TreeNode>
+                            <asp:TreeNode Text="ВНС Лесхоз 2" NavigateUrl="teleskop_vns11.aspx?n=11"></asp:TreeNode>
+                            <asp:TreeNode Text="ВНС Ул. Киселева 3 А" NavigateUrl="teleskop_vns12.aspx?n=12"></asp:TreeNode>
+                            <asp:TreeNode Text="ВНС Ул. Юности 1А" NavigateUrl="teleskop_vns13.aspx?n=13"></asp:TreeNode>
+                    </asp:TreeNode>
+                    <asp:TreeNode Text="Геолинк" SelectAction="Expand">
+                        <asp:TreeNode Text="Ул. Гдовская 6" NavigateUrl="geolink1.aspx?n=1"></asp:TreeNode>
+                            <asp:TreeNode Text="Госпитальная 15" NavigateUrl="geolink3.aspx?n=2"></asp:TreeNode>
+                            <asp:TreeNode Text="Киселева 11" NavigateUrl="geolink2.aspx?n=3"></asp:TreeNode>
+                            <asp:TreeNode Text="Коммунальная 46" NavigateUrl="geolink1.aspx?n=4"></asp:TreeNode>
+                            <asp:TreeNode Text="Печорская 4" NavigateUrl="geolink4.aspx?n=5"></asp:TreeNode>
+                            <asp:TreeNode Text="Рижский 41" NavigateUrl="geolink6.aspx?n=6"></asp:TreeNode>
+                            <asp:TreeNode Text="Юбилейная 34" NavigateUrl="geolink1.aspx?n=7"></asp:TreeNode>
+                            <asp:TreeNode Text="Юбилейная 44" NavigateUrl="geolink1.aspx?n=8"></asp:TreeNode>
+                            <asp:TreeNode Text="Юбилейная 52" NavigateUrl="geolink1.aspx?n=9"></asp:TreeNode>
+                            <asp:TreeNode Text="Красноармейская 31" NavigateUrl="geolink1.aspx?n=10"></asp:TreeNode>
+                            <asp:TreeNode Text="Сиреневый 1" NavigateUrl="geolink1.aspx?n=11"></asp:TreeNode>
+                            <asp:TreeNode Text="Алехина 24" NavigateUrl="geolink1.aspx?n=12"></asp:TreeNode>
+                            <asp:TreeNode Text="Толстого 42" NavigateUrl="geolink1.aspx?n=13"></asp:TreeNode>
+                            <asp:TreeNode Text="Гагарина5" NavigateUrl="geolink1.aspx?n=12"></asp:TreeNode>
+                            <asp:TreeNode Text="Труда 53" NavigateUrl="geolink1.aspx?n=13"></asp:TreeNode>
+                             <asp:TreeNode Text="Инженерная 23" NavigateUrl="geolink1.aspx?n=13"></asp:TreeNode>
+                    </asp:TreeNode>
+                     <asp:TreeNode Text="Формы ввода" SelectAction="Expand">
+                     <asp:TreeNode Text="Журнал учета водопотребл. др методами" NavigateUrl="drug_metod.aspx"></asp:TreeNode>
+                     </asp:TreeNode>
+                     </asp:TreeNode>
+                </Nodes>
+                <NodeStyle Font-Names="Tahoma" Font-Size="8pt" ForeColor="Black" 
+                    HorizontalPadding="2px" NodeSpacing="0px" VerticalPadding="2px" />
+                <ParentNodeStyle Font-Bold="False" />
+                <SelectedNodeStyle BackColor="#B5B5B5" Font-Underline="False" 
+                    HorizontalPadding="0px" VerticalPadding="0px" />
+                </asp:TreeView>
+        </div>    
+        <div id="content">
+            <asp:ContentPlaceHolder id="bodyTempl" runat="server" />
+        </div>    
+    </div>
+    <div id="footer">
+
+    </div>
+    </form>
+</body>
+</html>

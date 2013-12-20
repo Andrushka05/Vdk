@@ -1,0 +1,975 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<diagramm>
+  <dbConnectionString>Password=27cQ98n;Persist Security Info=True;User ID=LoggersVDK;Initial Catalog=Pskov;Data Source=192.168.8.15;</dbConnectionString>
+  <items>
+
+    <items name="ВНС">
+      <items name="ВНС 1  |  Западная 4">
+        <item name="ВНС 1  |  Западная 4. Расход 1"  db="FlowWater1" sp="select_vns_analog" param="ВНС №1" />
+        <item name="ВНС 1  |  Западная 4. Давление на входе"  db="PressInput" sp="select_vns_analog" param="ВНС №1" />
+        <item name="ВНС 1  |  Западная 4. Давление на выходе"  db="PressOutput" sp="select_vns_analog" param="ВНС №1" />
+		<item name="ВНС 1  |  Западная 4. Ток насоса А"  db="Cur_a" sp="select_vns_analog" param="ВНС №1" />
+		<item name="ВНС 1  |  Западная 4. Ток насоса B"  db="Cur_b"  sp="select_vns_analog" param="ВНС №1" />
+		<item name="ВНС 1  |  Западная 4. Ток насоса C"  db="Cur_c"  sp="select_vns_analog" param="ВНС №1" />
+		<item name="ВНС 1  |  Западная 4. Напряжение А"  db="AVR_a"  sp="select_vns_analog" param="ВНС №1" />
+		<item name="ВНС 1  |  Западная 4. Напряжение B"  db="AVR_b"  sp="select_vns_analog" param="ВНС №1" />
+		<item name="ВНС 1  |  Западная 4. Напряжение C"  db="AVR_c"  sp="select_vns_analog" param="ВНС №1" />
+		  
+		  <item name="ВНС 1  |  Западная 4. Насос 1"  db="pump1"  sp="select_vns_discret" param="ВНС №1" />
+		  <item name="ВНС 1  |  Западная 4. Насос 2"  db="pump2"  sp="select_vns_discret" param="ВНС №1" />
+      </items>
+	  <items name="ВНС 2  |  Инженерная 10/6">
+        <item name="ВНС 2  |  Инженерная 10/6. Расход 1"  db="FlowWater1" sp="select_vns_analog" param="ВНС №2" />
+        <item name="ВНС 2  |  Инженерная 10/6. Давление на входе"  db="PressInput" sp="select_vns_analog" param="ВНС №2" />
+        <item name="ВНС 2  |  Инженерная 10/6. Давление на выходе"  db="PressOutput" sp="select_vns_analog" param="ВНС №2" />
+		<item name="ВНС 2  |  Инженерная 10/6. Ток насоса А"  db="Cur_a" sp="select_vns_analog" param="ВНС №2" />
+		<item name="ВНС 2  |  Инженерная 10/6. Ток насоса B"  db="Cur_b"  sp="select_vns_analog" param="ВНС №2" />
+		<item name="ВНС 2  |  Инженерная 10/6. Ток насоса C"  db="Cur_c"  sp="select_vns_analog" param="ВНС №2" />
+		<item name="ВНС 2  |  Инженерная 10/6. Напряжение А"  db="AVR_a"  sp="select_vns_analog" param="ВНС №2" />
+	    <item name="ВНС 2  |  Инженерная 10/6. Напряжение B"  db="AVR_b"  sp="select_vns_analog" param="ВНС №2" />
+		<item name="ВНС 2  |  Инженерная 10/6. Напряжение C"  db="AVR_c"  sp="select_vns_analog" param="ВНС №2" />
+
+		 <item name="ВНС 2  |  Инженерная 10/6. Насос 1"  db="pump1"  sp="select_vns_discret" param="ВНС №2" />
+		  <item name="ВНС 2  |  Инженерная 10/6. Насос 2"  db="pump2"  sp="select_vns_discret" param="ВНС №2" />
+      </items>
+       <items name="ВНС3  |  Маргелова 17">
+        <item name="ВНС3  |  Маргелова 17. Расход 1"  db="FlowWater1" sp="select_vns_analog" param="ВНС №3" />
+        <item name="ВНС3  |  Маргелова 17. Давление на входе"  db="PressInput" sp="select_vns_analog" param="ВНС №3" />
+        <item name="ВНС3  |  Маргелова 17 Давление на выходе"  db="PressOutput" sp="select_vns_analog" param="ВНС №3" />
+		<item name="ВНС3  |  Маргелова 17. Ток насоса А"  db="Cur_a" sp="select_vns_analog" param="ВНС №3" />
+		<item name="ВНС3  |  Маргелова 17. Ток насоса B"  db="Cur_b"  sp="select_vns_analog" param="ВНС №3" />
+		<item name="ВНС3  |  Маргелова 17. Ток насоса C"  db="Cur_c"  sp="select_vns_analog" param="ВНС №3" />
+		<item name="ВНС3  |  Маргелова 17. Напряжение А"  db="AVR_a"  sp="select_vns_analog" param="ВНС №3" />
+		<item name="ВНС3  |  Маргелова 17. Напряжение B"  db="AVR_b"  sp="select_vns_analog" param="ВНС №3" />
+		<item name="ВНС3  |  Маргелова 17. Напряжение C"  db="AVR_c"  sp="select_vns_analog" param="ВНС №3" />
+
+		 <item name="ВНС3  |  Маргелова 17. Насос 1"  db="pump1"  sp="select_vns_discret" param="ВНС №3" />
+		  <item name="ВНС3  |  Маргелова 17. Насос 2"  db="pump2"  sp="select_vns_discret" param="ВНС №3" />
+      </items>
+       <items name="ВНС 4  |  Московская 1">
+        <item name="ВНС 4  |  Московская 1. Расход 1"  db="FlowWater1" sp="select_vns_analog" param="ВНС №4" />
+        <item name="ВНС 4  |  Московская 1. Давление на входе"  db="PressInput" sp="select_vns_analog" param="ВНС №4" />
+        <item name="ВНС 4  |  Московская 1. Давление на выходе"  db="PressOutput" sp="select_vns_analog" param="ВНС №4" />
+	    <item name="ВНС 4  |  Московская 1. Ток насоса А"  db="Cur_a" sp="select_vns_analog" param="ВНС №4" />
+		<item name="ВНС 4  |  Московская 1. Ток насоса B"  db="Cur_b"  sp="select_vns_analog" param="ВНС №4" />
+	    <item name="ВНС 4  |  Московская 1. Ток насоса C"  db="Cur_c"  sp="select_vns_analog" param="ВНС №4" />
+		<item name="ВНС 4  |  Московская 1. Напряжение А"  db="AVR_a"  sp="select_vns_analog" param="ВНС №4" />
+		<item name="ВНС 4  |  Московская 1. Напряжение B"  db="AVR_b"  sp="select_vns_analog" param="ВНС №4" />
+		<item name="ВНС 4  |  Московская 1. Напряжение C"  db="AVR_c"  sp="select_vns_analog" param="ВНС №4" />
+		   
+	   <item name="ВНС 4  |  Московская 1. Насос 1"  db="pump1"  sp="select_vns_discret" param="ВНС №4" />
+	   <item name="ВНС 4  |  Московская 1. Насос 2"  db="pump2"  sp="select_vns_discret" param="ВНС №4" />
+      </items>
+       <items name="ВНС 5  |  Рижский 22">
+        <item name="ВНС 5  |  Рижский 22. Расход 1"  db="FlowWater1" sp="select_vns_analog" param="ВНС №5" />
+        <item name="ВНС 5  |  Рижский 22. Давление на входе"  db="PressInput" sp="select_vns_analog" param="ВНС №5" />
+        <item name="ВНС 5  |  Рижский 22. Давление на выходе"  db="PressOutput" sp="select_vns_analog" param="ВНС №5" />
+		<item name="ВНС 5  |  Рижский 22. Ток насоса А"  db="Cur_a" sp="select_vns_analog" param="ВНС №5" />
+	    <item name="ВНС 5  |  Рижский 22. Ток насоса B"  db="Cur_b"  sp="select_vns_analog" param="ВНС №5" />
+	    <item name="ВНС 5  |  Рижский 22. Ток насоса C"  db="Cur_c"  sp="select_vns_analog" param="ВНС №5" />
+		<item name="ВНС 5  |  Рижский 22. Напряжение А"  db="AVR_a"  sp="select_vns_analog" param="ВНС №5" />
+		<item name="ВНС 5  |  Рижский 22. Напряжение B"  db="AVR_b"  sp="select_vns_analog" param="ВНС №5" />
+		<item name="ВНС 5  |  Рижский 22. Напряжение C"  db="AVR_c"  sp="select_vns_analog" param="ВНС №5" />
+		<item name="ВНС 5  |  Рижский 22. Насос 1"  db="pump1"  sp="select_vns_discret" param="ВНС №5" />
+		<item name="ВНС 5  |  Рижский 22. Насос 2"  db="pump2"  sp="select_vns_discret" param="ВНС №5" />
+		<item name="ВНС 5  |  Рижский 22. Насос 3"  db="pump3"  sp="select_vns_discret" param="ВНС №5" />
+      </items>
+       <items name="ВНС 6  |  Юбилейная 65">
+        <item name="ВНС 6  |  Юбилейная 65. Расход 1"  db="FlowWater1" sp="select_vns_analog" param="ВНС №6" />
+        <item name="ВНС 6  |  Юбилейная 65. Давление на входе"  db="PressInput" sp="select_vns_analog" param="ВНС №6" />
+        <item name="ВНС 6  |  Юбилейная 65. Давление на выходе"  db="PressOutput" sp="select_vns_analog" param="ВНС №6" />
+		<item name="ВНС 6  |  Юбилейная 65. Ток насоса А"  db="Cur_a" sp="select_vns_analog" param="ВНС №6" />
+		<item name="ВНС 6  |  Юбилейная 65. Ток насоса B"  db="Cur_b"  sp="select_vns_analog" param="ВНС №6" />
+		<item name="ВНС 6  |  Юбилейная 65. Ток насоса C"  db="Cur_c"  sp="select_vns_analog" param="ВНС №6" />
+		<item name="ВНС 6  |  Юбилейная 65. Напряжение А"  db="AVR_a"  sp="select_vns_analog" param="ВНС №6" />
+		<item name="ВНС 6  |  Юбилейная 65. Напряжение B"  db="AVR_b"  sp="select_vns_analog" param="ВНС №6" />
+		<item name="ВНС 6  |  Юбилейная 65. Напряжение C"  db="AVR_c"  sp="select_vns_analog" param="ВНС №6" />
+		<item name="ВНС 6  |  Юбилейная 65. Насос 1"  db="pump1"  sp="select_vns_discret" param="ВНС №6" />
+		<item name="ВНС 6  |  Юбилейная 65. Насос 2"  db="pump2"  sp="select_vns_discret" param="ВНС №6" />
+		<item name="ВНС 6  |  Юбилейная 65. Насос 3"  db="pump3"  sp="select_vns_discret" param="ВНС №6" />
+      </items>
+       <items name="ВНС 7  |  Рижский 67">
+        <item name="ВНС 7  |  Рижский 67. Расход 1"  db="FlowWater1" sp="select_vns_analog" param="ВНС №7" />
+        <item name="ВНС 7  |  Рижский 67. Давление на входе"  db="PressInput" sp="select_vns_analog" param="ВНС №7" />
+        <item name="ВНС 7  |  Рижский 67. Давление на выходе"  db="PressOutput" sp="select_vns_analog" param="ВНС №7" />
+		<item name="ВНС 7  |  Рижский 67. Ток насоса А"  db="Cur_a" sp="select_vns_analog" param="ВНС №7" />
+	    <item name="ВНС 7  |  Рижский 67. Ток насоса B"  db="Cur_b"  sp="select_vns_analog" param="ВНС №7" />
+		<item name="ВНС 7  |  Рижский 67. Ток насоса C"  db="Cur_c"  sp="select_vns_analog" param="ВНС №7" />
+		<item name="ВНС 7  |  Рижский 67. Напряжение А"  db="AVR_a"  sp="select_vns_analog" param="ВНС №7" />
+        <item name="ВНС 7  |  Рижский 67. Напряжение B"  db="AVR_b"  sp="select_vns_analog" param="ВНС №7" />
+		<item name="ВНС 7  |  Рижский 67. Напряжение C"  db="AVR_c"  sp="select_vns_analog" param="ВНС №7" />
+	    <item name="ВНС 7  |  Рижский 67. Насос 1"  db="pump1"  sp="select_vns_discret" param="ВНС №7" />
+		<item name="ВНС 7  |  Рижский 67. Насос 2"  db="pump2"  sp="select_vns_discret" param="ВНС №7" />
+		<item name="ВНС 7  |  Рижский 67. Насос 3"  db="pump3"  sp="select_vns_discret" param="ВНС №7" />
+      </items>
+      <items name="ВНС 8">
+        <item name="ВНС 8. Расход 1"  db="FlowWater1" sp="select_vns_analog" param="ВНС №8" />
+        <item name="ВНС 8. Давление на входе"  db="PressInput" sp="select_vns_analog" param="ВНС №8" />
+        <item name="ВНС 8. Давление на выходе"  db="PressOutput" sp="select_vns_analog" param="ВНС №8" />
+		<item name="ВНС 8. Ток насоса А"  db="Cur_a" sp="select_vns_analog" param="ВНС №8" />
+		<item name="ВНС 8. Ток насоса B"  db="Cur_b"  sp="select_vns_analog" param="ВНС №8" />
+		<item name="ВНС 8. Ток насоса C"  db="Cur_c"  sp="select_vns_analog" param="ВНС №8" />
+		<item name="ВНС 8. Напряжение А"  db="AVR_a"  sp="select_vns_analog" param="ВНС №8" />
+		<item name="ВНС 8. Напряжение B"  db="AVR_b"  sp="select_vns_analog" param="ВНС №8" />
+		<item name="ВНС 8. Напряжение C"  db="AVR_c"  sp="select_vns_analog" param="ВНС №8" />
+		  <item name="ВНС 8. Насос 1"  db="pump1"  sp="select_vns_discret" param="ВНС №8" />
+		  <item name="ВНС 8. Насос 2"  db="pump2"  sp="select_vns_discret" param="ВНС №8" /> 
+      </items>
+		<items name="ВНС 9">
+			<item name="ВНС 9. Расход 1"  db="FlowWater1" sp="select_vns_analog" param="ВНС №9" />
+			<item name="ВНС 9. Давление на входе"  db="PressInput" sp="select_vns_analog" param="ВНС №9" />
+			<item name="ВНС 9. Давление на выходе"  db="PressOutput" sp="select_vns_analog" param="ВНС №9" />
+			<item name="ВНС 9. Ток насоса А"  db="Cur_a" sp="select_vns_analog" param="ВНС №9" />
+			<item name="ВНС 9. Ток насоса B"  db="Cur_b"  sp="select_vns_analog" param="ВНС №9" />
+			<item name="ВНС 9. Ток насоса C"  db="Cur_c"  sp="select_vns_analog" param="ВНС №9" />
+			<item name="ВНС 9. Напряжение А"  db="AVR_a"  sp="select_vns_analog" param="ВНС №9" />
+			<item name="ВНС 9. Напряжение B"  db="AVR_b"  sp="select_vns_analog" param="ВНС №9" />
+			<item name="ВНС 9. Напряжение C"  db="AVR_c"  sp="select_vns_analog" param="ВНС №9" />
+			<item name="ВНС 9. Насос 1"  db="pump1"  sp="select_vns_discret" param="ВНС №9" />
+			<item name="ВНС 9. Насос 2"  db="pump2"  sp="select_vns_discret" param="ВНС №9" />
+			<item name="ВНС 9. Насос 3"  db="pump3"  sp="select_vns_discret" param="ВНС №9" />
+			
+		</items>
+		<items name="ВНС 10">
+			<item name="ВНС 10. Расход 1"  db="FlowWater1" sp="select_vns_analog" param="ВНС №10" />
+			<item name="ВНС 10. Давление на входе"  db="PressInput" sp="select_vns_analog" param="ВНС №10" />
+			<item name="ВНС 10. Давление на выходе"  db="PressOutput" sp="select_vns_analog" param="ВНС №10" />
+			<item name="ВНС 10. Ток насоса А"  db="Cur_a" sp="select_vns_analog" param="ВНС №10" />
+			<item name="ВНС 10. Ток насоса B"  db="Cur_b"  sp="select_vns_analog" param="ВНС №10" />
+			<item name="ВНС 10. Ток насоса C"  db="Cur_c"  sp="select_vns_analog" param="ВНС №10" />
+			<item name="ВНС 10. Напряжение А"  db="AVR_a"  sp="select_vns_analog" param="ВНС №10" />
+			<item name="ВНС 10. Напряжение B"  db="AVR_b"  sp="select_vns_analog" param="ВНС №10" />
+			<item name="ВНС 10. Напряжение C"  db="AVR_c"  sp="select_vns_analog" param="ВНС №10" />
+			<item name="ВНС 10. Насос 1"  db="pump1"  sp="select_vns_discret" param="ВНС №10" />
+			<item name="ВНС 10. Насос 2"  db="pump2"  sp="select_vns_discret" param="ВНС №10" />
+		</items>
+      <items name="ВНС 11  |  Госпитальная 15">
+        <item name="ВНС 11  |  Госпитальная 15. Расход 1"  db="FlowWater1" sp="select_vns_analog" param="ВНС №11" />
+        <item name="ВНС 11  |  Госпитальная 15. Давление на входе"  db="PressInput" sp="select_vns_analog" param="ВНС №11" />
+        <item name="ВНС 11  |  Госпитальная 15. Давление на выходе"  db="PressOutput" sp="select_vns_analog" param="ВНС №11" />
+		<item name="ВНС 11  |  Госпитальная 15. Ток насоса А"  db="Cur_a" sp="select_vns_analog" param="ВНС №11" />
+		<item name="ВНС 11  |  Госпитальная 15. Ток насоса B"  db="Cur_b"  sp="select_vns_analog" param="ВНС №11" />
+		<item name="ВНС 11  |  Госпитальная 15. Ток насоса C"  db="Cur_c"  sp="select_vns_analog" param="ВНС №11" />
+	    <item name="ВНС 11  |  Госпитальная 15. Напряжение А"  db="AVR_a"  sp="select_vns_analog" param="ВНС №11" />
+		<item name="ВНС 11  |  Госпитальная 15. Напряжение B"  db="AVR_b"  sp="select_vns_analog" param="ВНС №11" />
+		<item name="ВНС 11  |  Госпитальная 15. Напряжение C"  db="AVR_c"  sp="select_vns_analog" param="ВНС №11" />
+		  <item name="ВНС 11  |  Госпитальная 15. Насос 1"  db="pump1"  sp="select_vns_discret" param="ВНС №11" />
+		  <item name="ВНС 11  |  Госпитальная 15. Насос 2"  db="pump2"  sp="select_vns_discret" param="ВНС №11" />
+		  <item name="ВНС 11  |  Госпитальная 15. Насос 3"  db="pump3"  sp="select_vns_discret" param="ВНС №11" />
+		  <item name="ВНС 11  |  Госпитальная 15. Насос 4"  db="pump3"  sp="select_vns_discret" param="ВНС №11" />
+      </items>
+      <items name="ВНС 12  |  Инженерная 16">
+        <item name="ВНС 12  |  Инженерная 16. Расход 1"  db="FlowWater1" sp="select_vns_analog" param="ВНС №12" />
+        <item name="ВНС 12  |  Инженерная 16. Давление на входе"  db="PressInput" sp="select_vns_analog" param="ВНС №12" />
+        <item name="ВНС 12  |  Инженерная 16. Давление на выходе"  db="PressOutput" sp="select_vns_analog" param="ВНС №12" />
+		<item name="ВНС 12  |  Инженерная 16. Ток насоса А"  db="Cur_a" sp="select_vns_analog" param="ВНС №12" />
+	    <item name="ВНС 12  |  Инженерная 16. Ток насоса B"  db="Cur_b"  sp="select_vns_analog" param="ВНС №12" />
+		<item name="ВНС 12  |  Инженерная 16. Ток насоса C"  db="Cur_c"  sp="select_vns_analog" param="ВНС №12" />
+		<item name="ВНС 12  |  Инженерная 16. Напряжение А"  db="AVR_a"  sp="select_vns_analog" param="ВНС №12" />
+	    <item name="ВНС 12  |  Инженерная 16. Напряжение B"  db="AVR_b"  sp="select_vns_analog" param="ВНС №12" />
+		<item name="ВНС 12  |  Инженерная 16. Напряжение C"  db="AVR_c"  sp="select_vns_analog" param="ВНС №12" />
+		<item name="ВНС 12  |  Инженерная 16. Насос 1"  db="pump1"  sp="select_vns_discret" param="ВНС №12" />
+		<item name="ВНС 12  |  Инженерная 16. Насос 2"  db="pump2"  sp="select_vns_discret" param="ВНС №12" />
+      </items>
+		<items name="ВНС 13">
+			<item name="ВНС 13. Расход 1"  db="FlowWater1" sp="select_vns_analog" param="ВНС №13" />
+			<item name="ВНС 13. Давление на входе"  db="PressInput" sp="select_vns_analog" param="ВНС №13" />
+			<item name="ВНС 13. Давление на выходе"  db="PressOutput" sp="select_vns_analog" param="ВНС №13" />
+			<item name="ВНС 13. Ток насоса А"  db="Cur_a" sp="select_vns_analog" param="ВНС №13" />
+			<item name="ВНС 13. Ток насоса B"  db="Cur_b"  sp="select_vns_analog" param="ВНС №13" />
+			<item name="ВНС 13. Ток насоса C"  db="Cur_c"  sp="select_vns_analog" param="ВНС №13" />
+			<item name="ВНС 13. Напряжение А"  db="AVR_a"  sp="select_vns_analog" param="ВНС №13" />
+			<item name="ВНС 13. Напряжение B"  db="AVR_b"  sp="select_vns_analog" param="ВНС №13" />
+			<item name="ВНС 13. Напряжение C"  db="AVR_c"  sp="select_vns_analog" param="ВНС №13" />
+			<item name="ВНС 13. Насос 1"  db="pump1"  sp="select_vns_discret" param="ВНС №13" />
+			<item name="ВНС 13. Насос 2"  db="pump2"  sp="select_vns_discret" param="ВНС №13" />
+		</items>
+      <items name="ВНС 14">
+        <item name="ВНС 14. Расход 1"  db="FlowWater1" sp="select_vns_analog" param="ВНС №14" />
+        <item name="ВНС 14. Давление на входе"  db="PressInput" sp="select_vns_analog" param="ВНС №14" />
+        <item name="ВНС 14. Давление на выходе"  db="PressOutput" sp="select_vns_analog" param="ВНС №14" />
+		<item name="ВНС 14. Ток насоса А"  db="Cur_a" sp="select_vns_analog" param="ВНС №14" />
+		<item name="ВНС 14. Ток насоса B"  db="Cur_b"  sp="select_vns_analog" param="ВНС №14" />
+	    <item name="ВНС 14. Ток насоса C"  db="Cur_c"  sp="select_vns_analog" param="ВНС №14" />
+	    <item name="ВНС 14. Напряжение А"  db="AVR_a"  sp="select_vns_analog" param="ВНС №14" />
+		<item name="ВНС 14. Напряжение B"  db="AVR_b"  sp="select_vns_analog" param="ВНС №14" />
+		<item name="ВНС 14. Напряжение C"  db="AVR_c"  sp="select_vns_analog" param="ВНС №14" />
+		  <item name="ВНС 14. Насос 1"  db="pump1"  sp="select_vns_discret" param="ВНС №14" />
+		  <item name="ВНС 14. Насос 2"  db="pump2"  sp="select_vns_discret" param="ВНС №14" />
+	  </items>
+      <items name="ВНС 15  |  Киселева 11">
+        <item name="ВНС 15  |  Киселева 11. Расход 1"  db="FlowWater1" sp="select_vns_analog" param="ВНС №15" />
+        <item name="ВНС 15  |  Киселева 11. Давление на входе"  db="PressInput" sp="select_vns_analog" param="ВНС №15" />
+        <item name="ВНС 15  |  Киселева 11. Давление на выходе"  db="PressOutput" sp="select_vns_analog" param="ВНС №15" />
+		<item name="ВНС 15  |  Киселева 11. Ток насоса А"  db="Cur_a" sp="select_vns_analog" param="ВНС №15" />
+		<item name="ВНС 15  |  Киселева 11. Ток насоса B"  db="Cur_b"  sp="select_vns_analog" param="ВНС №15" />
+		<item name="ВНС 15  |  Киселева 11. Ток насоса C"  db="Cur_c"  sp="select_vns_analog" param="ВНС №15" />
+		<item name="ВНС 15  |  Киселева 11. Напряжение А"  db="AVR_a"  sp="select_vns_analog" param="ВНС №15" />
+	    <item name="ВНС 15  |  Киселева 11. Напряжение B"  db="AVR_b"  sp="select_vns_analog" param="ВНС №15" />
+		<item name="ВНС 15  |  Киселева 11. Напряжение C"  db="AVR_c"  sp="select_vns_analog" param="ВНС №15" />
+		  <item name="ВНС 15  |  Киселева 11. Насос 1"  db="pump1"  sp="select_vns_discret" param="ВНС №15" />
+		  <item name="ВНС 15  |  Киселева 11. Насос 2"  db="pump2"  sp="select_vns_discret" param="ВНС №15" />
+		  
+      </items>
+      <items name="ВНС 16">
+        <item name="ВНС 16. Расход 1"  db="FlowWater1" sp="select_vns_analog" param="ВНС №16" />
+        <item name="ВНС 16. Давление на входе"  db="PressInput" sp="select_vns_analog" param="ВНС №16" />
+        <item name="ВНС 16. Давление на выходе"  db="PressOutput" sp="select_vns_analog" param="ВНС №16" />
+	    <item name="ВНС 16. Ток насоса А"  db="Cur_a" sp="select_vns_analog" param="ВНС №16" />
+		<item name="ВНС 16. Ток насоса B"  db="Cur_b"  sp="select_vns_analog" param="ВНС №16" />
+		<item name="ВНС 16. Ток насоса C"  db="Cur_c"  sp="select_vns_analog" param="ВНС №16" />
+		<item name="ВНС 16. Напряжение А"  db="AVR_a"  sp="select_vns_analog" param="ВНС №16" />
+		<item name="ВНС 16. Напряжение B"  db="AVR_b"  sp="select_vns_analog" param="ВНС №16" />
+	    <item name="ВНС 16. Напряжение C"  db="AVR_c"  sp="select_vns_analog" param="ВНС №16" />
+		  <item name="ВНС 16. Насос 1"  db="pump1"  sp="select_vns_discret" param="ВНС №16" />
+		  <item name="ВНС 16. Насос 2"  db="pump2"  sp="select_vns_discret" param="ВНС №16" />
+	  </items>
+      <items name="ВНС 17">
+        <item name="ВНС 17. Расход 1"  db="FlowWater1" sp="select_vns_analog" param="ВНС №17" />
+        <item name="ВНС 17. Давление на входе"  db="PressInput" sp="select_vns_analog" param="ВНС №17" />
+        <item name="ВНС 17. Давление на выходе"  db="PressOutput" sp="select_vns_analog" param="ВНС №17" />
+		<item name="ВНС 17. Ток насоса А"  db="Cur_a" sp="select_vns_analog" param="ВНС №17" />
+		<item name="ВНС 17. Ток насоса B"  db="Cur_b"  sp="select_vns_analog" param="ВНС №17" />
+		<item name="ВНС 17. Ток насоса C"  db="Cur_c"  sp="select_vns_analog" param="ВНС №17" />
+		<item name="ВНС 17. Напряжение А"  db="AVR_a"  sp="select_vns_analog" param="ВНС №17" />
+		<item name="ВНС 17. Напряжение B"  db="AVR_b"  sp="select_vns_analog" param="ВНС №17" />
+		<item name="ВНС 17. Напряжение C"  db="AVR_c"  sp="select_vns_analog" param="ВНС №17" />
+		  <item name="ВНС 17. Насос 1"  db="pump1"  sp="select_vns_discret" param="ВНС №17" />
+		  <item name="ВНС 17. Насос 2"  db="pump2"  sp="select_vns_discret" param="ВНС №17" />
+		  <item name="ВНС 17. Насос 3"  db="pump3"  sp="select_vns_discret" param="ВНС №17" />
+		 
+	  </items>
+      <items name="ВНС 18">
+        <item name="ВНС 18. Расход 1"  db="FlowWater1" sp="select_vns_analog" param="ВНС №18" />
+        <item name="ВНС 18. Давление на входе"  db="PressInput" sp="select_vns_analog" param="ВНС №18" />
+        <item name="ВНС 18. Давление на выходе"  db="PressOutput" sp="select_vns_analog" param="ВНС №18" />
+		<item name="ВНС 18. Ток насоса А"  db="Cur_a" sp="select_vns_analog" param="ВНС №18" />
+		<item name="ВНС 18. Ток насоса B"  db="Cur_b"  sp="select_vns_analog" param="ВНС №18" />
+		<item name="ВНС 18. Ток насоса C"  db="Cur_c"  sp="select_vns_analog" param="ВНС №18" />
+		<item name="ВНС 18. Напряжение А"  db="AVR_a"  sp="select_vns_analog" param="ВНС №18" />
+		<item name="ВНС 18. Напряжение B"  db="AVR_b"  sp="select_vns_analog" param="ВНС №18" />
+		<item name="ВНС 18. Напряжение C"  db="AVR_c"  sp="select_vns_analog" param="ВНС №18" />
+		  <item name="ВНС 18. Насос 1"  db="pump1"  sp="select_vns_discret" param="ВНС №18" />
+		  <item name="ВНС 18. Насос 2"  db="pump2"  sp="select_vns_discret" param="ВНС №18" />
+	  </items>
+      <items name="ВНС 19">
+        <item name="ВНС 19. Расход 1"  db="FlowWater1" sp="select_vns_analog" param="ВНС №19" />
+        <item name="ВНС 19. Давление на входе"  db="PressInput" sp="select_vns_analog" param="ВНС №19" />
+        <item name="ВНС 19. Давление на выходе"  db="PressOutput" sp="select_vns_analog" param="ВНС №19" />
+		<item name="ВНС 19. Ток насоса А"  db="Cur_a" sp="select_vns_analog" param="ВНС №19" />
+		<item name="ВНС 19. Ток насоса B"  db="Cur_b"  sp="select_vns_analog" param="ВНС №19" />
+		<item name="ВНС 19. Ток насоса C"  db="Cur_c"  sp="select_vns_analog" param="ВНС №19" />
+		<item name="ВНС 19. Напряжение А"  db="AVR_a"  sp="select_vns_analog" param="ВНС №19" />
+		<item name="ВНС 19. Напряжение B"  db="AVR_b"  sp="select_vns_analog" param="ВНС №19" />
+		<item name="ВНС 19. Напряжение C"  db="AVR_c"  sp="select_vns_analog" param="ВНС №19" />
+		  <item name="ВНС 19. Насос 1"  db="pump1"  sp="select_vns_discret" param="ВНС №19" />
+		  <item name="ВНС 19. Насос 2"  db="pump2"  sp="select_vns_discret" param="ВНС №19" />
+		  <item name="ВНС 19. Насос 3"  db="pump3"  sp="select_vns_discret" param="ВНС №19" />
+		  <item name="ВНС 19. Насос 4"  db="pump4"  sp="select_vns_discret" param="ВНС №19" />
+		  <item name="ВНС 19. Насос 5"  db="pump5"  sp="select_vns_discret" param="ВНС №19" />
+		 
+	  </items>
+      <items name="ВНС 20  |  Печорская 7">
+        <item name="ВНС 20  |  Печорская 7. Расход 1"  db="FlowWater1" sp="select_vns_analog" param="ВНС №20" />
+        <item name="ВНС 20  |  Печорская 7. Давление на входе"  db="PressInput" sp="select_vns_analog" param="ВНС №20" />
+        <item name="ВНС 20  |  Печорская 7. Давление на выходе"  db="PressOutput" sp="select_vns_analog" param="ВНС №20" />
+		<item name="ВНС 20  |  Печорская 7. Ток насоса А"  db="Cur_a" sp="select_vns_analog" param="ВНС №20" />
+		<item name="ВНС 20  |  Печорская 7. Ток насоса B"  db="Cur_b"  sp="select_vns_analog" param="ВНС №20" />
+		<item name="ВНС 20  |  Печорская 7. Ток насоса C"  db="Cur_c"  sp="select_vns_analog" param="ВНС №20" />
+		<item name="ВНС 20  |  Печорская 7. Напряжение А"  db="AVR_a"  sp="select_vns_analog" param="ВНС №20" />
+		<item name="ВНС 20  |  Печорская 7. Напряжение B"  db="AVR_b"  sp="select_vns_analog" param="ВНС №20" />
+		<item name="ВНС 20  |  Печорская 7. Напряжение C"  db="AVR_c"  sp="select_vns_analog" param="ВНС №20" />
+		  <item name="ВНС 20  |  Печорская 7. Насос 1"  db="pump1"  sp="select_vns_discret" param="ВНС №20" />
+		  <item name="ВНС 20  |  Печорская 7. Насос 2"  db="pump2"  sp="select_vns_discret" param="ВНС №20" />
+		  <item name="ВНС 20  |  Печорская 7. Насос 3"  db="pump3"  sp="select_vns_discret" param="ВНС №20" />
+		  <item name="ВНС 20  |  Печорская 7. Насос 4"  db="pump4"  sp="select_vns_discret" param="ВНС №20" />
+		  <item name="ВНС 20  |  Печорская 7. Насос 5"  db="pump5"  sp="select_vns_discret" param="ВНС №20" />
+		  <item name="ВНС 20  |  Печорская 7. Насос 6"  db="pump6"  sp="select_vns_discret" param="ВНС №20" />
+      </items>
+		<items name="ВНС 21">
+			<item name="ВНС 21. Расход 1"  db="FlowWater1" sp="select_vns_analog" param="ВНС №21" />
+			<item name="ВНС 21. Давление на входе"  db="PressInput" sp="select_vns_analog" param="ВНС №21" />
+			<item name="ВНС 21. Давление на выходе"  db="PressOutput" sp="select_vns_analog" param="ВНС №21" />
+			<item name="ВНС 21. Ток насоса А"  db="Cur_a" sp="select_vns_analog" param="ВНС №21" />
+			<item name="ВНС 21. Ток насоса B"  db="Cur_b"  sp="select_vns_analog" param="ВНС №21" />
+			<item name="ВНС 21. Ток насоса C"  db="Cur_c"  sp="select_vns_analog" param="ВНС №21" />
+			<item name="ВНС 21. Напряжение А"  db="AVR_a"  sp="select_vns_analog" param="ВНС №21" />
+			<item name="ВНС 21. Напряжение B"  db="AVR_b"  sp="select_vns_analog" param="ВНС №21" />
+			<item name="ВНС 21. Напряжение C"  db="AVR_c"  sp="select_vns_analog" param="ВНС №21" />
+			<item name="ВНС 21. Насос 1"  db="pump1"  sp="select_vns_discret" param="ВНС №21" />
+			<item name="ВНС 21. Насос 2"  db="pump2"  sp="select_vns_discret" param="ВНС №21" />
+			<item name="ВНС 21. Насос 3"  db="pump3"  sp="select_vns_discret" param="ВНС №21" />
+			
+		</items>
+      <items name="ВНС 22  |  Рокоссовского 10">
+        <item name="ВНС 22  |  Рокоссовского 10. Расход 1"  db="FlowWater1" sp="select_vns_analog" param="ВНС №22" />
+        <item name="ВНС 22  |  Рокоссовского 10. Давление на входе"  db="PressInput" sp="select_vns_analog" param="ВНС №22" />
+        <item name="ВНС 22  |  Рокоссовского 10. Давление на выходе"  db="PressOutput" sp="select_vns_analog" param="ВНС №22" />
+		<item name="ВНС 22  |  Рокоссовского 10. Ток насоса А"  db="Cur_a" sp="select_vns_analog" param="ВНС №22" />
+		<item name="ВНС 22  |  Рокоссовского 10. Ток насоса B"  db="Cur_b"  sp="select_vns_analog" param="ВНС №22" />
+		<item name="ВНС 22  |  Рокоссовского 10. Ток насоса C"  db="Cur_c"  sp="select_vns_analog" param="ВНС №22" />
+		<item name="ВНС 22  |  Рокоссовского 10. Напряжение А"  db="AVR_a"  sp="select_vns_analog" param="ВНС №22" />
+		<item name="ВНС 22  |  Рокоссовского 10. Напряжение B"  db="AVR_b"  sp="select_vns_analog" param="ВНС №22" />
+		<item name="ВНС 22  |  Рокоссовского 10. Напряжение C"  db="AVR_c"  sp="select_vns_analog" param="ВНС №22" />
+		  <item name="ВНС 22  |  Рокоссовского 10. Насос 1"  db="pump1"  sp="select_vns_discret" param="ВНС №22" />
+		  <item name="ВНС 22  |  Рокоссовского 10. Насос 2"  db="pump2"  sp="select_vns_discret" param="ВНС №22" />
+		  <item name="ВНС 22  |  Рокоссовского 10. Насос 3"  db="pump3"  sp="select_vns_discret" param="ВНС №22" />
+		  <item name="ВНС 22  |  Рокоссовского 10. Насос 4"  db="pump4"  sp="select_vns_discret" param="ВНС №22" />
+		  <item name="ВНС 22  |  Рокоссовского 10. Насос 5"  db="pump5"  sp="select_vns_discret" param="ВНС №22" />
+		  <item name="ВНС 22  |  Рокоссовского 10. Насос 6"  db="pump6"  sp="select_vns_discret" param="ВНС №22" />
+      </items>
+		<items name="ВНС 23">
+			<item name="ВНС 23. Расход 1"  db="FlowWater1" sp="select_vns_analog" param="ВНС №23" />
+			<item name="ВНС 23. Давление на входе"  db="PressInput" sp="select_vns_analog" param="ВНС №23" />
+			<item name="ВНС 23. Давление на выходе"  db="PressOutput" sp="select_vns_analog" param="ВНС №23" />
+			<item name="ВНС 23. Ток насоса А"  db="Cur_a" sp="select_vns_analog" param="ВНС №23" />
+			<item name="ВНС 23. Ток насоса B"  db="Cur_b"  sp="select_vns_analog" param="ВНС №23" />
+			<item name="ВНС 23. Ток насоса C"  db="Cur_c"  sp="select_vns_analog" param="ВНС №23" />
+			<item name="ВНС 23. Напряжение А"  db="AVR_a"  sp="select_vns_analog" param="ВНС №23" />
+			<item name="ВНС 23. Напряжение B"  db="AVR_b"  sp="select_vns_analog" param="ВНС №23" />
+			<item name="ВНС 23. Напряжение C"  db="AVR_c"  sp="select_vns_analog" param="ВНС №23" />
+			<item name="ВНС 23. Насос 1"  db="pump1"  sp="select_vns_discret" param="ВНС №23" />
+			<item name="ВНС 23. Насос 2"  db="pump2"  sp="select_vns_discret" param="ВНС №23" />
+		</items>
+		<items name="ВНС 24">
+			<item name="ВНС 24. Расход 1"  db="FlowWater1" sp="select_vns_analog" param="ВНС №24" />
+			<item name="ВНС 24. Давление на входе"  db="PressInput" sp="select_vns_analog" param="ВНС №24" />
+			<item name="ВНС 24. Давление на выходе"  db="PressOutput" sp="select_vns_analog" param="ВНС №24" />
+			<item name="ВНС 24. Ток насоса А"  db="Cur_a" sp="select_vns_analog" param="ВНС №24" />
+			<item name="ВНС 24. Ток насоса B"  db="Cur_b"  sp="select_vns_analog" param="ВНС №24" />
+			<item name="ВНС 24. Ток насоса C"  db="Cur_c"  sp="select_vns_analog" param="ВНС №24" />
+			<item name="ВНС 24. Напряжение А"  db="AVR_a"  sp="select_vns_analog" param="ВНС №24" />
+			<item name="ВНС 24. Напряжение B"  db="AVR_b"  sp="select_vns_analog" param="ВНС №24" />
+			<item name="ВНС 24. Напряжение C"  db="AVR_c"  sp="select_vns_analog" param="ВНС №24" />
+			<item name="ВНС 24. Насос 1"  db="pump1"  sp="select_vns_discret" param="ВНС №24" />
+			<item name="ВНС 24. Насос 2"  db="pump2"  sp="select_vns_discret" param="ВНС №24" />
+			<item name="ВНС 24. Насос 3"  db="pump3"  sp="select_vns_discret" param="ВНС №24" />
+			<item name="ВНС 24. Насос 4"  db="pump4"  sp="select_vns_discret" param="ВНС №24" />
+		</items>
+		<items name="ВНС 25">
+			<item name="ВНС 25. Расход 1"  db="FlowWater1" sp="select_vns_analog" param="ВНС №25" />
+			<item name="ВНС 25. Давление на входе"  db="PressInput" sp="select_vns_analog" param="ВНС №25" />
+			<item name="ВНС 25. Давление на выходе"  db="PressOutput" sp="select_vns_analog" param="ВНС №25" />
+			<item name="ВНС 25. Ток насоса А"  db="Cur_a" sp="select_vns_analog" param="ВНС №25" />
+			<item name="ВНС 25. Ток насоса B"  db="Cur_b"  sp="select_vns_analog" param="ВНС №25" />
+			<item name="ВНС 25. Ток насоса C"  db="Cur_c"  sp="select_vns_analog" param="ВНС №25" />
+			<item name="ВНС 25. Напряжение А"  db="AVR_a"  sp="select_vns_analog" param="ВНС №25" />
+			<item name="ВНС 25. Напряжение B"  db="AVR_b"  sp="select_vns_analog" param="ВНС №25" />
+			<item name="ВНС 25. Напряжение C"  db="AVR_c"  sp="select_vns_analog" param="ВНС №25" />
+			<item name="ВНС 25. Насос 1"  db="pump1"  sp="select_vns_discret" param="ВНС №25" />
+			<item name="ВНС 25. Насос 2"  db="pump2"  sp="select_vns_discret" param="ВНС №25" />
+		</items>
+      <items name="ВНС 26  |  Труда 16">
+        <item name="ВНС 26  |  Труда 16. Расход 1"  db="FlowWater1" sp="select_vns_analog" param="ВНС №26" />
+        <item name="ВНС 26  |  Труда 16. Давление на входе"  db="PressInput" sp="select_vns_analog" param="ВНС №26" />
+        <item name="ВНС 26  |  Труда 16. Давление на выходе"  db="PressOutput" sp="select_vns_analog" param="ВНС №26" />
+		<item name="ВНС 26  |  Труда 16. Ток насоса А"  db="Cur_a" sp="select_vns_analog" param="ВНС №26" />
+		<item name="ВНС 26  |  Труда 16. Ток насоса B"  db="Cur_b"  sp="select_vns_analog" param="ВНС №26" />
+		<item name="ВНС 26  |  Труда 16. Ток насоса C"  db="Cur_c"  sp="select_vns_analog" param="ВНС №26" />
+		<item name="ВНС 26  |  Труда 16. Напряжение А"  db="AVR_a"  sp="select_vns_analog" param="ВНС №26" />
+		<item name="ВНС 26  |  Труда 16. Напряжение B"  db="AVR_b"  sp="select_vns_analog" param="ВНС №26" />
+		<item name="ВНС 26  |  Труда 16. Напряжение C"  db="AVR_c"  sp="select_vns_analog" param="ВНС №26" />
+		  <item name="ВНС 26  |  Труда 16. Насос 1"  db="pump1"  sp="select_vns_discret" param="ВНС №26" />
+		  <item name="ВНС 26  |  Труда 16. Насос 2"  db="pump2"  sp="select_vns_discret" param="ВНС №26" />
+		        </items>
+      <items name="ВНС 27  |  Труда 67">
+        <item name="ВНС 27  |  Труда 67. Расход 1"  db="FlowWater1" sp="select_vns_analog" param="ВНС №27" />
+        <item name="ВНС 27  |  Труда 67. Давление на входе"  db="PressInput" sp="select_vns_analog" param="ВНС №27" />
+        <item name="ВНС 27  |  Труда 67. Давление на выходе"  db="PressOutput" sp="select_vns_analog" param="ВНС №27" />
+		<item name="ВНС 27  |  Труда 67. Ток насоса А"  db="Cur_a" sp="select_vns_analog" param="ВНС №27" />
+		<item name="ВНС 27  |  Труда 67. Ток насоса B"  db="Cur_b"  sp="select_vns_analog" param="ВНС №27" />
+		<item name="ВНС 27  |  Труда 67. Ток насоса C"  db="Cur_c"  sp="select_vns_analog" param="ВНС №27" />
+		<item name="ВНС 27  |  Труда 67. Напряжение А"  db="AVR_a"  sp="select_vns_analog" param="ВНС №27" />
+		<item name="ВНС 27  |  Труда 67. Напряжение B"  db="AVR_b"  sp="select_vns_analog" param="ВНС №27" />
+		<item name="ВНС 27  |  Труда 67. Напряжение C"  db="AVR_c"  sp="select_vns_analog" param="ВНС №27" />
+		  <item name="ВНС 27  |  Труда 67. Насос 1"  db="pump1"  sp="select_vns_discret" param="ВНС №27" />
+		  <item name="ВНС 27  |  Труда 67. Насос 2"  db="pump2"  sp="select_vns_discret" param="ВНС №27" />
+		       </items>
+		<items name="ВНС 28">
+			<item name="ВНС 28. Расход 1"  db="FlowWater1" sp="select_vns_analog" param="ВНС №28" />
+			<item name="ВНС 28. Давление на входе"  db="PressInput" sp="select_vns_analog" param="ВНС №28" />
+			<item name="ВНС 28. Давление на выходе"  db="PressOutput" sp="select_vns_analog" param="ВНС №28" />
+			<item name="ВНС 28. Ток насоса А"  db="Cur_a" sp="select_vns_analog" param="ВНС №28" />
+			<item name="ВНС 28. Ток насоса B"  db="Cur_b"  sp="select_vns_analog" param="ВНС №30" />
+			<item name="ВНС 28. Ток насоса C"  db="Cur_c"  sp="select_vns_analog" param="ВНС №30" />
+			<item name="ВНС 28. Напряжение А"  db="AVR_a"  sp="select_vns_analog" param="ВНС №30" />
+			<item name="ВНС 28. Напряжение B"  db="AVR_b"  sp="select_vns_analog" param="ВНС №30" />
+			<item name="ВНС 28. Напряжение C"  db="AVR_c"  sp="select_vns_analog" param="ВНС №30" />
+			<item name="ВНС 28. Насос 1"  db="pump1"  sp="select_vns_discret" param="ВНС №30" />
+			<item name="ВНС 28. Насос 2"  db="pump2"  sp="select_vns_discret" param="ВНС №30" />
+		</items>		
+      <items name="ВНС 30">
+        <item name="ВНС 30. Расход 1"  db="FlowWater1" sp="select_vns_analog" param="ВНС №30" />
+        <item name="ВНС 30. Давление на входе"  db="PressInput" sp="select_vns_analog" param="ВНС №30" />
+        <item name="ВНС 30. Давление на выходе"  db="PressOutput" sp="select_vns_analog" param="ВНС №30" />
+		<item name="ВНС 30. Ток насоса А"  db="Cur_a" sp="select_vns_analog" param="ВНС №30" />
+		<item name="ВНС 30. Ток насоса B"  db="Cur_b"  sp="select_vns_analog" param="ВНС №30" />
+		<item name="ВНС 30. Ток насоса C"  db="Cur_c"  sp="select_vns_analog" param="ВНС №30" />
+		<item name="ВНС 30. Напряжение А"  db="AVR_a"  sp="select_vns_analog" param="ВНС №30" />
+		<item name="ВНС 30. Напряжение B"  db="AVR_b"  sp="select_vns_analog" param="ВНС №30" />
+		<item name="ВНС 30. Напряжение C"  db="AVR_c"  sp="select_vns_analog" param="ВНС №30" />
+		  <item name="ВНС 30. Насос 1"  db="pump1"  sp="select_vns_discret" param="ВНС №30" />
+		  <item name="ВНС 30. Насос 2"  db="pump2"  sp="select_vns_discret" param="ВНС №30" />
+		       </items>
+      <items name="ВНС 31  |  Энтузиастов 9">
+        <item name="ВНС 31  |  Энтузиастов 9. Расход 1"  db="FlowWater1" sp="select_vns_analog" param="ВНС №31" />
+        <item name="ВНС 31  |  Энтузиастов 9. Давление на входе"  db="PressInput" sp="select_vns_analog" param="ВНС №31" />
+        <item name="ВНС 31  |  Энтузиастов 9. Давление на выходе"  db="PressOutput" sp="select_vns_analog" param="ВНС №31" />
+		<item name="ВНС 31  |  Энтузиастов 9. Ток насоса А"  db="Cur_a" sp="select_vns_analog" param="ВНС №31" />
+		<item name="ВНС 31  |  Энтузиастов 9. Ток насоса B"  db="Cur_b"  sp="select_vns_analog" param="ВНС №31" />
+		<item name="ВНС 31  |  Энтузиастов 9. Ток насоса C"  db="Cur_c"  sp="select_vns_analog" param="ВНС №31" />
+		<item name="ВНС 31  |  Энтузиастов 9. Напряжение А"  db="AVR_a"  sp="select_vns_analog" param="ВНС №31" />
+		<item name="ВНС 31  |  Энтузиастов 9. Напряжение B"  db="AVR_b"  sp="select_vns_analog" param="ВНС №31" />
+		<item name="ВНС 31  |  Энтузиастов 9. Напряжение C"  db="AVR_c"  sp="select_vns_analog" param="ВНС №31" />
+		  <item name="ВНС 31  |  Энтузиастов 9. Насос 1"  db="pump1"  sp="select_vns_discret" param="ВНС №31" />
+		  <item name="ВНС 31  |  Энтузиастов 9. Насос 2"  db="pump2"  sp="select_vns_discret" param="ВНС №31" />
+		       </items>
+      <items name="ВНС 32  |  Юбилейная 34">
+        <item name="ВНС 32  |  Юбилейная 34. Расход 1"  db="FlowWater1" sp="select_vns_analog" param="ВНС №32" />
+        <item name="ВНС 32  |  Юбилейная 34. Давление на входе"  db="PressInput" sp="select_vns_analog" param="ВНС №32" />
+        <item name="ВНС 32  |  Юбилейная 34. Давление на выходе"  db="PressOutput" sp="select_vns_analog" param="ВНС №32" />
+		<item name="ВНС 32  |  Юбилейная 34. Ток насоса А"  db="Cur_a" sp="select_vns_analog" param="ВНС №32" />
+		<item name="ВНС 32  |  Юбилейная 34. Ток насоса B"  db="Cur_b"  sp="select_vns_analog" param="ВНС №32" />
+		<item name="ВНС 32  |  Юбилейная 34. Ток насоса C"  db="Cur_c"  sp="select_vns_analog" param="ВНС №32" />
+		<item name="ВНС 32  |  Юбилейная 34. Напряжение А"  db="AVR_a"  sp="select_vns_analog" param="ВНС №32" />
+		<item name="ВНС 32  |  Юбилейная 34. Напряжение B"  db="AVR_b"  sp="select_vns_analog" param="ВНС №32" />
+		<item name="ВНС 32  |  Юбилейная 34. Напряжение C"  db="AVR_c"  sp="select_vns_analog" param="ВНС №32" />
+		  <item name="ВНС 32  |  Юбилейная 34. Насос 1"  db="pump1"  sp="select_vns_discret" param="ВНС №32" />
+		  <item name="ВНС 32  |  Юбилейная 34. Насос 2"  db="pump2"  sp="select_vns_discret" param="ВНС №32" />
+		  <item name="ВНС 32  |  Юбилейная 34. Насос 3"  db="pump3"  sp="select_vns_discret" param="ВНС №22" />
+		  <item name="ВНС 32  |  Юбилейная 34. Насос 4"  db="pump4"  sp="select_vns_discret" param="ВНС №22" />
+      </items>
+		<items name="ВНС 33">
+			<item name="ВНС 33. Давление на входе"  db="PressInput" sp="select_vns_analog" param="ВНС №33" />
+			<item name="ВНС 33. Давление на выходе"  db="PressOutput" sp="select_vns_analog" param="ВНС №33" />
+			<item name="ВНС 33. Ток насоса А"  db="Cur_a" sp="select_vns_analog" param="ВНС №33" />
+			<item name="ВНС 33. Ток насоса B"  db="Cur_b"  sp="select_vns_analog" param="ВНС №33" />
+			<item name="ВНС 33. Ток насоса C"  db="Cur_c"  sp="select_vns_analog" param="ВНС №33" />
+			<item name="ВНС 33. Напряжение А"  db="AVR_a"  sp="select_vns_analog" param="ВНС №33" />
+			<item name="ВНС 33. Напряжение B"  db="AVR_b"  sp="select_vns_analog" param="ВНС №33" />
+			<item name="ВНС 33. Напряжение C"  db="AVR_c"  sp="select_vns_analog" param="ВНС №33" />
+			<item name="ВНС 33. Насос 1"  db="pump1"  sp="select_vns_discret" param="ВНС №33" />
+			<item name="ВНС 33. Насос 2"  db="pump2"  sp="select_vns_discret" param="ВНС №33" />
+			
+		</items>
+		<items name="ВНС 34">
+			<item name="ВНС 34. Давление на входе"  db="PressInput" sp="select_vns_analog" param="ВНС №34" />
+			<item name="ВНС 34. Давление на выходе"  db="PressOutput" sp="select_vns_analog" param="ВНС №34" />
+			<item name="ВНС 34. Ток насоса А"  db="Cur_a" sp="select_vns_analog" param="ВНС №34" />
+			<item name="ВНС 34. Ток насоса B"  db="Cur_b"  sp="select_vns_analog" param="ВНС №34" />
+			<item name="ВНС 34. Ток насоса C"  db="Cur_c"  sp="select_vns_analog" param="ВНС №34" />
+			<item name="ВНС 34. Напряжение А"  db="AVR_a"  sp="select_vns_analog" param="ВНС №34" />
+			<item name="ВНС 34. Напряжение B"  db="AVR_b"  sp="select_vns_analog" param="ВНС №34" />
+			<item name="ВНС 34. Напряжение C"  db="AVR_c"  sp="select_vns_analog" param="ВНС №34" />
+			<item name="ВНС 34. Насос 1"  db="pump1"  sp="select_vns_discret" param="ВНС №34" />
+			<item name="ВНС 34. Насос 2"  db="pump2"  sp="select_vns_discret" param="ВНС №34" />
+
+		</items>
+	</items>
+	  		<items name="АССИ">
+			<items name="АССИ 1">
+				<item name="КТ 1  |  Крестовское ДОК 136а.Давление"  db="value" sp="select_assi_analog" param="1" />
+			</items>
+			<items name="АССИ 2">
+					<item name="КТ 2  |  Шестока 28.Давление"  db="value" sp="select_assi_analog" param="2" />
+			</items>
+			<items name="АССИ 3">
+					<item name="КТ 3  |  Ленинградское шоссе.Давление"  db="value" sp="select_assi_analog" param="3" />
+			</items>
+			<items name="АССИ 4">
+					<item name="КТ 4  |  Кузнецкая.Давление"  db="value" sp="select_assi_analog" param="4" />
+			</items>
+			<items name="АССИ 5">
+					<item name="АКТ 5  |  Инженерная 62.Давление"  db="value" sp="select_assi_analog" param="5" />
+			</items>
+			<items name="АССИ 6">
+					<item name="КТ 6  |  Труда х Звездная.Давление"  db="value" sp="select_assi_analog" param="6" />
+			</items>
+			<items name="АССИ 7">
+					<item name="КТ 7  |  Н.Васильева 83а.Давление"  db="value" sp="select_assi_analog" param="7" />
+			</items>
+			<items name="АССИ 8">
+					<item name="КТ 8  |  Советская наб..Давление"  db="value" sp="select_assi_analog" param="8" />
+			</items>
+			<items name="АССИ 9">
+					<item name="КТ 9  |  Рижский 96б (Лента).Давление"  db="value" sp="select_assi_analog" param="9" />
+			</items>
+			<items name="АССИ 10">
+					<item name="КТ 10  |  Ижорского батальона 43.Давление"  db="value" sp="select_assi_analog" param="10" />
+			</items>
+			<items name="АССИ 11">
+					<item name="КТ 11  |  Инженерная х Индустриальная.Давление"  db="value" sp="select_assi_analog" param="11" />
+			</items>
+			<items name="АССИ 12">
+					<item name="КТ 12  |  Любятово (Лисьи горки).Давление"  db="value" sp="select_assi_analog" param="12" />
+			</items>
+			<items name="АССИ 13">
+					<item name="КТ 13  |  Лужская 15 (Белый Мох).Давление"  db="value" sp="select_assi_analog" param="13" />
+			</items>
+			<items name="АССИ 14">
+					<item name="КТ 14  |  Юбилейная 89а.Давление"  db="value" sp="select_assi_analog" param="14" />
+			</items>
+			<items name="АССИ 15">
+					<item name="КТ 15  |  Кузнецкая х Плехановский псд.Давление"  db="value" sp="select_assi_analog" param="15" />
+			</items>
+			<items name="АССИ 16">
+					<item name="КТ 16  |  Железнодорожная 26.Давление"  db="value" sp="select_assi_analog" param="16" />
+			</items>
+			<items name="АССИ 17">
+					<item name="КТ 17  |  Сиреневый б-р 9.Давление"  db="value" sp="select_assi_analog" param="17" />
+			</items>
+			<items name="АССИ 18">
+					<item name="КТ 18  |  Л.Поземского 116.Давление"  db="value" sp="select_assi_analog" param="18" />
+			</items>
+			<items name="АССИ 19">
+					<item name="КТ 19  |  Набат (дюкер через Пскову).Давление"  db="value" sp="select_assi_analog" param="19" />
+			</items>
+			<items name="АССИ 20">
+					<item name="КТ 20  |  Советской Армии 49а.Давление"  db="value" sp="select_assi_analog" param="20" />
+			</items>
+			<items name="АССИ 21">
+					<item name="КТ 21  |  Чудская (Чертов ручей).Давление"  db="value" sp="select_assi_analog" param="21" />
+				</items>
+			<items name="АССИ 22">
+					<item name="КТ 22  |  Юбилейная (мост Невского).Давление"  db="value" sp="select_assi_analog" param="22" />
+			</items>
+			<items name="АССИ 23">
+					<item name="КТ 23  |  Юбилейная х Коммунальная.Давление"  db="value" sp="select_assi_analog" param="23" />
+			</items>
+			<items name="АССИ 24">
+					<item name="КТ 24  |  Юбилейная х Гаражный пр-д.Давление"  db="value" sp="select_assi_analog" param="24" />
+			</items>
+			<items name="АССИ 25">
+					<item name="КТ 25  |  Юбилейная х Маргелова.Давление"  db="value" sp="select_assi_analog" param="25" />
+			</items>
+			<items name="АССИ 26">
+					<item name="КТ 26  |  Горького х Коммунальная.Давление"  db="value" sp="select_assi_analog" param="26" />
+			</items>
+			<items name="АССИ 27">
+					<item name="КТ 27  |  Юбилейная х Красноармейская.Давление"  db="value" sp="select_assi_analog" param="27" />
+			</items>
+			<items name="АССИ 28">
+					<item name="КТ 28  |  Юбилейная х Рижский.Давление"  db="value" sp="select_assi_analog" param="28" />
+			</items>
+			<items name="АССИ 29">
+					<item name="КТ 29  |  дюкер на Райниса.Давление"  db="value" sp="select_assi_analog" param="29" />
+			</items>
+			<items name="АССИ 30">
+					<item name="КТ 30  |  Октябрьский х Вокзальная.Давление"  db="value" sp="select_assi_analog" param="30" />
+			</items>
+				<items name="АССИ 31">
+					<item name="КТ 31.Давление"  db="value" sp="select_assi_analog" param="31" />
+				</items>
+				<items name="АССИ 32">
+					<item name="КТ 32.Давление"  db="value" sp="select_assi_analog" param="32" />
+				</items>
+				<items name="АССИ 33">
+					<item name="КТ 33.Давление"  db="value" sp="select_assi_analog" param="33" />
+				</items>
+				<items name="АССИ 34">
+					<item name="КТ 34.Давление"  db="value" sp="select_assi_analog" param="33" />
+				</items>
+				<items name="АССИ 35">
+					<item name="КТ 35.Давление"  db="value" sp="select_assi_analog" param="34" />
+				</items>
+					<items name="АССИ 36">
+					<item name="КТ 36.Давление"  db="value" sp="select_assi_analog" param="36" />
+				</items>
+				<items name="АССИ 37">
+					<item name="КТ 37.Давление"  db="value" sp="select_assi_analog" param="37" />
+				</items>
+				<items name="АССИ 38">
+					<item name="КТ 38.Давление"  db="value" sp="select_assi_analog" param="38" />
+				</items>
+				<items name="АССИ 39">
+					<item name="КТ 39.Давление"  db="value" sp="select_assi_analog" param="39" />
+				</items>
+				<items name="АССИ 40">
+					<item name="КТ 40.Давление"  db="value" sp="select_assi_analog" param="40" />
+				</items>
+				<items name="АССИ 41">
+					<item name="КТ 41.Давление"  db="value" sp="select_assi_analog" param="41" />
+				</items>
+				<items name="АССИ 42">
+					<item name="КТ 42.Давление"  db="value" sp="select_assi_analog" param="42" />
+				</items>
+				<items name="АССИ 43">
+					<item name="КТ 43.Давление"  db="value" sp="select_assi_analog" param="43" />
+				</items>
+				<items name="АССИ 44">
+					<item name="КТ 44.Давление"  db="value" sp="select_assi_analog" param="44" />
+				</items>
+				<items name="АССИ 45">
+					<item name="КТ 45.Давление"  db="value" sp="select_assi_analog" param="45" />
+				</items>
+				<items name="АССИ 46">
+					<item name="КТ 46.Давление"  db="value" sp="select_assi_analog" param="46" />
+				</items>
+				<items name="АССИ 47">
+					<item name="КТ 47.Давление"  db="value" sp="select_assi_analog" param="47" />
+				</items>
+				<items name="АССИ 48">
+					<item name="КТ 48.Давление"  db="value" sp="select_assi_analog" param="48" />
+				</items>
+				
+    </items>
+	  <items name="Теплосети">
+		  <items name="КОТ №  1 'Районная + 20'">
+			  <item name="КОТ №  1 'Районная + 20'.Txv"  db="Txv" sp="select_teploset_analog" param="teploset №1" />
+			  <item name="КОТ №  1 'Районная + 20'.Mpd"  db="Mpd" sp="select_teploset_analog" param="teploset №1" />
+			  <item name="КОТ №  1 'Районная + 20'.Pxv"  db="Pxv" sp="select_teploset_analog" param="teploset №1" />
+			  <item name="КОТ №  1 'Районная + 20'.V"  db="V" sp="select_teploset_analog" param="teploset №1" />
+			  <item name="КОТ №  1 'Районная + 20'.G"  db="G" sp="select_teploset_analog" param="teploset №1" />
+			  <item name="КОТ №  1 'Районная + 20'.M"  db="M" sp="select_teploset_analog" param="teploset №1" />
+		  </items>
+		  <items name="КОТ №  2 'ПлодоОвощ'">
+			  <item name="КОТ №  2 'ПлодоОвощ'.Txv"  db="Txv" sp="select_teploset_analog" param="teploset №2" />
+			  <item name="КОТ №  2 'ПлодоОвощ'.Mpd"  db="Mpd" sp="select_teploset_analog" param="teploset №2" />
+			  <item name="КОТ №  2 'ПлодоОвощ'.Pxv"  db="Pxv" sp="select_teploset_analog" param="teploset №2" />
+			  <item name="КОТ №  2 'ПлодоОвощ'.V"  db="V" sp="select_teploset_analog" param="teploset №2" />
+			  <item name="КОТ №  2 'ПлодоОвощ'.G"  db="G" sp="select_teploset_analog" param="teploset №2" />
+			  <item name="КОТ №  2 'ПлодоОвощ'.M"  db="M" sp="select_teploset_analog" param="teploset №2" />
+		  </items>
+		  <items name="КОТ №  3 'Рижский пр. 43А'">
+			  <item name="КОТ №  3 'Рижский пр. 43А'.Txv"  db="Txv" sp="select_teploset_analog" param="teploset №3" />
+			  <item name="КОТ №  3 'Рижский пр. 43А'.Mpd"  db="Mpd" sp="select_teploset_analog" param="teploset №3" />
+			  <item name="КОТ №  3 'Рижский пр. 43А'.Pxv"  db="Pxv" sp="select_teploset_analog" param="teploset №3" />
+			  <item name="КОТ №  3 'Рижский пр. 43А'.V"  db="V" sp="select_teploset_analog" param="teploset №3" />
+			  <item name="КОТ №  3 'Рижский пр. 43А'.G"  db="G" sp="select_teploset_analog" param="teploset №3" />
+			  <item name="КОТ №  3 'Рижский пр. 43А'.M"  db="M" sp="select_teploset_analog" param="teploset №3" />
+		  </items>
+		  <items name="КОТ №  6 '13-я Школа'">
+			  <item name="КОТ №  6 '13-я Школа'.Txv"  db="Txv" sp="select_teploset_analog" param="teploset №4" />
+			  <item name="КОТ №  6 '13-я Школа'.Mpd"  db="Mpd" sp="select_teploset_analog" param="teploset №4" />
+			  <item name="КОТ №  6 '13-я Школа'.Pxv"  db="Pxv" sp="select_teploset_analog" param="teploset №4" />
+			  <item name="КОТ №  6 '13-я Школа'.V"  db="V" sp="select_teploset_analog" param="teploset №4" />
+			  <item name="КОТ №  6 '13-я Школа'.G"  db="G" sp="select_teploset_analog" param="teploset №4" />
+			  <item name="КОТ №  6 '13-я Школа'.M"  db="M" sp="select_teploset_analog" param="teploset №4" />
+		  </items>
+		  <items name="КОТ №  7 'Школа интернат'">
+			  <item name="КОТ №  7 'Школа интернат'.Txv"  db="Txv" sp="select_teploset_analog" param="teploset №5" />
+			  <item name="КОТ №  7 'Школа интернат'.Mpd"  db="Mpd" sp="select_teploset_analog" param="teploset №5" />
+			  <item name="КОТ №  7 'Школа интернат'.Pxv"  db="Pxv" sp="select_teploset_analog" param="teploset №5" />
+			  <item name="КОТ №  7 'Школа интернат'.V"  db="V" sp="select_teploset_analog" param="teploset №5" />
+			  <item name="КОТ №  7 'Школа интернат'.G"  db="G" sp="select_teploset_analog" param="teploset №5" />
+			  <item name="КОТ №  7 'Школа интернат'.M"  db="M" sp="select_teploset_analog" param="teploset №5" />
+		  </items>
+		  <items name="КОТ №  9 'СВПУ'">
+			  <item name="КОТ №  9 'СВПУ'.Txv"  db="Txv" sp="select_teploset_analog" param="teploset №6" />
+			  <item name="КОТ №  9 'СВПУ'.Mpd"  db="Mpd" sp="select_teploset_analog" param="teploset №6" />
+			  <item name="КОТ №  9 'СВПУ'.Pxv"  db="Pxv" sp="select_teploset_analog" param="teploset №6" />
+			  <item name="КОТ №  9 'СВПУ'.V"  db="V" sp="select_teploset_analog" param="teploset №6" />
+			  <item name="КОТ №  9 'СВПУ'.G"  db="G" sp="select_teploset_analog" param="teploset №6" />
+			  <item name="КОТ №  9 'СВПУ'.M"  db="M" sp="select_teploset_analog" param="teploset №6" />
+		  </items>
+		  <items name="КОТ № 10 'Тиконд'">
+			  <item name="КОТ № 10 'Тиконд'.Txv"  db="Txv" sp="select_teploset_analog" param="teploset №7" />
+			  <item name="КОТ № 10 'Тиконд'.Mpd"  db="Mpd" sp="select_teploset_analog" param="teploset №7" />
+			  <item name="КОТ № 10 'Тиконд'.Pxv"  db="Pxv" sp="select_teploset_analog" param="teploset №7" />
+			  <item name="КОТ № 10 'Тиконд'.V"  db="V" sp="select_teploset_analog" param="teploset №7" />
+			  <item name="КОТ № 10 'Тиконд'.G"  db="G" sp="select_teploset_analog" param="teploset №7" />
+			  <item name="КОТ № 10 'Тиконд'.M"  db="M" sp="select_teploset_analog" param="teploset №7" />
+		  </items>
+		  <items name="КОТ № 12 'Конная 8А'">
+			  <item name="КОТ № 12 'Конная 8А'.Txv"  db="Txv" sp="select_teploset_analog" param="teploset №8" />
+			  <item name="КОТ № 12 'Конная 8А'.Mpd"  db="Mpd" sp="select_teploset_analog" param="teploset №8" />
+			  <item name="КОТ № 12 'Конная 8А'.Pxv"  db="Pxv" sp="select_teploset_analog" param="teploset №8" />
+			  <item name="КОТ № 12 'Конная 8А'.V"  db="V" sp="select_teploset_analog" param="teploset №8" />
+			  <item name="КОТ № 12 'Конная 8А'.G"  db="G" sp="select_teploset_analog" param="teploset №8" />
+			  <item name="КОТ № 12 'Конная 8А'.M"  db="M" sp="select_teploset_analog" param="teploset №8" />
+		  </items>
+		  <items name="КОТ № 13 'Народная-Чехова'">
+			  <item name="КОТ № 13 'Народная-Чехова'.Txv"  db="Txv" sp="select_teploset_analog" param="teploset №9" />
+			  <item name="КОТ № 13 'Народная-Чехова'.Mpd"  db="Mpd" sp="select_teploset_analog" param="teploset №9" />
+			  <item name="КОТ № 13 'Народная-Чехова'.Pxv"  db="Pxv" sp="select_teploset_analog" param="teploset №9" />
+			  <item name="КОТ № 13 'Народная-Чехова'.V"  db="V" sp="select_teploset_analog" param="teploset №9" />
+			  <item name="КОТ № 13 'Народная-Чехова'.G"  db="G" sp="select_teploset_analog" param="teploset №9" />
+			  <item name="КОТ № 13 'Народная-Чехова'.M"  db="M" sp="select_teploset_analog" param="teploset №9" />
+		  </items>
+		  <items name="КОТ № 14 'Гор. больница'">
+			  <item name="КОТ № 14 'Гор. больница'.Txv"  db="Txv" sp="select_teploset_analog" param="teploset №10" />
+			  <item name="КОТ № 14 'Гор. больница'.Mpd"  db="Mpd" sp="select_teploset_analog" param="teploset №10" />
+			  <item name="КОТ № 14 'Гор. больница'.Pxv"  db="Pxv" sp="select_teploset_analog" param="teploset №10" />
+			  <item name="КОТ № 14 'Гор. больница'.V"  db="V" sp="select_teploset_analog" param="teploset №10" />
+			  <item name="КОТ № 14 'Гор. больница'.G"  db="G" sp="select_teploset_analog" param="teploset №10" />
+			  <item name="КОТ № 14 'Гор. больница'.M"  db="M" sp="select_teploset_analog" param="teploset №10" />
+		  </items>
+		  <items name="КОТ № 17 'Коммунальн. 22Б'">
+			  <item name="КОТ № 17 'Коммунальн. 22Б'.Txv"  db="Txv" sp="select_teploset_analog" param="teploset №11" />
+			  <item name="КОТ № 17 'Коммунальн. 22Б'.Mpd"  db="Mpd" sp="select_teploset_analog" param="teploset №11" />
+			  <item name="КОТ № 17 'Коммунальн. 22Б'.Pxv"  db="Pxv" sp="select_teploset_analog" param="teploset №11" />
+			  <item name="КОТ № 17 'Коммунальн. 22Б'.V"  db="V" sp="select_teploset_analog" param="teploset №11" />
+			  <item name="КОТ № 17 'Коммунальн. 22Б'.G"  db="G" sp="select_teploset_analog" param="teploset №11" />
+			  <item name="КОТ № 17 'Коммунальн. 22Б'.M"  db="M" sp="select_teploset_analog" param="teploset №11" />
+		  </items>
+		  <items name="КОТ № 18 'КЭЧ'">
+			  <item name="КОТ № 18 'КЭЧ'.Txv"  db="Txv" sp="select_teploset_analog" param="teploset №12" />
+			  <item name="КОТ № 18 'КЭЧ'.Mpd"  db="Mpd" sp="select_teploset_analog" param="teploset №12" />
+			  <item name="КОТ № 18 'КЭЧ'.Pxv"  db="Pxv" sp="select_teploset_analog" param="teploset №12" />
+			  <item name="КОТ № 18 'КЭЧ'.V"  db="V" sp="select_teploset_analog" param="teploset №12" />
+			  <item name="КОТ № 18 'КЭЧ'.G"  db="G" sp="select_teploset_analog" param="teploset №12" />
+			  <item name="КОТ № 18 'КЭЧ'.M"  db="M" sp="select_teploset_analog" param="teploset №12" />
+		  </items>
+		  <items name="КОТ № 20 '20-я'">
+			  <item name="КОТ № 20 '20-я'.Txv"  db="Txv" sp="select_teploset_analog" param="teploset №13" />
+			  <item name="КОТ № 20 '20-я'.Mpd"  db="Mpd" sp="select_teploset_analog" param="teploset №13" />
+			  <item name="КОТ № 20 '20-я'.Pxv"  db="Pxv" sp="select_teploset_analog" param="teploset №13" />
+			  <item name="КОТ № 20 '20-я'.V"  db="V" sp="select_teploset_analog" param="teploset №13" />
+			  <item name="КОТ № 20 '20-я'.G"  db="G" sp="select_teploset_analog" param="teploset №13" />
+			  <item name="КОТ № 20 '20-я'.M"  db="M" sp="select_teploset_analog" param="teploset №13" />
+		  </items>
+		  <items name="КОТ № 23 'Волкова 3'">
+			  <item name="КОТ № 23 'Волкова 3'.Txv"  db="Txv" sp="select_teploset_analog" param="teploset №14" />
+			  <item name="КОТ № 23 'Волкова 3'.Mpd"  db="Mpd" sp="select_teploset_analog" param="teploset №14" />
+			  <item name="КОТ № 23 'Волкова 3'.Pxv"  db="Pxv" sp="select_teploset_analog" param="teploset №14" />
+			  <item name="КОТ № 23 'Волкова 3'.V"  db="V" sp="select_teploset_analog" param="teploset №14" />
+			  <item name="КОТ № 23 'Волкова 3'.G"  db="G" sp="select_teploset_analog" param="teploset №14" />
+			  <item name="КОТ № 23 'Волкова 3'.M"  db="M" sp="select_teploset_analog" param="teploset №14" />
+		  </items>
+		  <items name="КОТ-ЦТП №  5 'Чехова 4А'">
+			  <item name="КОТ-ЦТП №  5 'Чехова 4А'.Txv"  db="Txv" sp="select_teploset_analog" param="teploset №15" />
+			  <item name="КОТ-ЦТП №  5 'Чехова 4А'.Mpd"  db="Mpd" sp="select_teploset_analog" param="teploset №15" />
+			  <item name="КОТ-ЦТП №  5 'Чехова 4А'.Pxv"  db="Pxv" sp="select_teploset_analog" param="teploset №15" />
+			  <item name="КОТ-ЦТП №  5 'Чехова 4А'.V"  db="V" sp="select_teploset_analog" param="teploset №15" />
+			  <item name="КОТ-ЦТП №  5 'Чехова 4А'.G"  db="G" sp="select_teploset_analog" param="teploset №15" />
+			  <item name="КОТ-ЦТП №  5 'Чехова 4А'.M"  db="M" sp="select_teploset_analog" param="teploset №15" />
+		  </items>
+		  <items name="КОТ-ЦТП №  8 'Псковкирпич'">
+			  <item name="КОТ-ЦТП №  8 'Псковкирпич'.Txv"  db="Txv" sp="select_teploset_analog" param="teploset №16" />
+			  <item name="КОТ-ЦТП №  8 'Псковкирпич'.Mpd"  db="Mpd" sp="select_teploset_analog" param="teploset №16" />
+			  <item name="КОТ-ЦТП №  8 'Псковкирпич'.Pxv"  db="Pxv" sp="select_teploset_analog" param="teploset №16" />
+			  <item name="КОТ-ЦТП №  8 'Псковкирпич'.V"  db="V" sp="select_teploset_analog" param="teploset №16" />
+			  <item name="КОТ-ЦТП №  8 'Псковкирпич'.G"  db="G" sp="select_teploset_analog" param="teploset №16" />
+			  <item name="КОТ-ЦТП №  8 'Псковкирпич'.M"  db="M" sp="select_teploset_analog" param="teploset №16" />
+		  </items>
+		  <items name="КОТ-ЦТП № 19 'Поземского 63'">
+			  <item name="КОТ-ЦТП № 19 'Поземского 63'.Txv"  db="Txv" sp="select_teploset_analog" param="teploset №17" />
+			  <item name="КОТ-ЦТП № 19 'Поземского 63'.Mpd"  db="Mpd" sp="select_teploset_analog" param="teploset №17" />
+			  <item name="КОТ-ЦТП № 19 'Поземского 63'.Pxv"  db="Pxv" sp="select_teploset_analog" param="teploset №17" />
+			  <item name="КОТ-ЦТП № 19 'Поземского 63'.V"  db="V" sp="select_teploset_analog" param="teploset №17" />
+			  <item name="КОТ-ЦТП № 19 'Поземского 63'.G"  db="G" sp="select_teploset_analog" param="teploset №17" />
+			  <item name="КОТ-ЦТП № 19 'Поземского 63'.M"  db="M" sp="select_teploset_analog" param="teploset №17" />
+		  </items>
+		  <items name="КОТ-ЦТП № 22 'Первомайская 43'">
+			  <item name="КОТ-ЦТП № 22 'Первомайская 43'.Txv"  db="Txv" sp="select_teploset_analog" param="teploset №18" />
+			  <item name="КОТ-ЦТП № 22 'Первомайская 43'.Mpd"  db="Mpd" sp="select_teploset_analog" param="teploset №18" />
+			  <item name="КОТ-ЦТП № 22 'Первомайская 43'.Pxv"  db="Pxv" sp="select_teploset_analog" param="teploset №18" />
+			  <item name="КОТ-ЦТП № 22 'Первомайская 43'.V"  db="V" sp="select_teploset_analog" param="teploset №18" />
+			  <item name="КОТ-ЦТП № 22 'Первомайская 43'.G"  db="G" sp="select_teploset_analog" param="teploset №18" />
+			  <item name="КОТ-ЦТП № 22 'Первомайская 43'.M"  db="M" sp="select_teploset_analog" param="teploset №18" />
+		  </items>
+		  <items name="ЦТП № 1- 1 'Коммунальн.59'">
+			  <item name="ЦТП № 1- 1 'Коммунальн.59'.Txv"  db="Txv" sp="select_teploset_analog" param="teploset №19" />
+			  <item name="ЦТП № 1- 1 'Коммунальн.59'.Mpd"  db="Mpd" sp="select_teploset_analog" param="teploset №19" />
+			  <item name="ЦТП № 1- 1 'Коммунальн.59'.Pxv"  db="Pxv" sp="select_teploset_analog" param="teploset №19" />
+			  <item name="ЦТП № 1- 1 'Коммунальн.59'.V"  db="V" sp="select_teploset_analog" param="teploset №19" />
+			  <item name="ЦТП № 1- 1 'Коммунальн.59'.G"  db="G" sp="select_teploset_analog" param="teploset №19" />
+			  <item name="ЦТП № 1- 1 'Коммунальн.59'.M"  db="M" sp="select_teploset_analog" param="teploset №19" />
+		  </items>
+		  <items name="ЦТП № 1- 2 'Кузбасс 30А'">
+			  <item name="ЦТП № 1- 2 'Кузбасс 30А'.Txv"  db="Txv" sp="select_teploset_analog" param="teploset №20" />
+			  <item name="ЦТП № 1- 2 'Кузбасс 30А'.Mpd"  db="Mpd" sp="select_teploset_analog" param="teploset №20" />
+			  <item name="ЦТП № 1- 2 'Кузбасс 30А'.Pxv"  db="Pxv" sp="select_teploset_analog" param="teploset №20" />
+			  <item name="ЦТП № 1- 2 'Кузбасс 30А'.V"  db="V" sp="select_teploset_analog" param="teploset №20" />
+			  <item name="ЦТП № 1- 2 'Кузбасс 30А'.G"  db="G" sp="select_teploset_analog" param="teploset №20" />
+			  <item name="ЦТП № 1- 2 'Кузбасс 30А'.M"  db="M" sp="select_teploset_analog" param="teploset №20" />
+		  </items>
+		  <items name="ЦТП № 1- 3 'Коммунальн.67'">
+			  <item name="ЦТП № 1- 3 'Коммунальн.67'.Txv"  db="Txv" sp="select_teploset_analog" param="teploset №21" />
+			  <item name="ЦТП № 1- 3 'Коммунальн.67'.Mpd"  db="Mpd" sp="select_teploset_analog" param="teploset №21" />
+			  <item name="ЦТП № 1- 3 'Коммунальн.67'.Pxv"  db="Pxv" sp="select_teploset_analog" param="teploset №21" />
+			  <item name="ЦТП № 1- 3 'Коммунальн.67'.V"  db="V" sp="select_teploset_analog" param="teploset №21" />
+			  <item name="ЦТП № 1- 3 'Коммунальн.67'.G"  db="G" sp="select_teploset_analog" param="teploset №21" />
+			  <item name="ЦТП № 1- 3 'Коммунальн.67'.M"  db="M" sp="select_teploset_analog" param="teploset №21" />
+		  </items>
+		  <items name="ЦТП № 1- 4 'Коммунальн.77'">
+			  <item name="ЦТП № 1- 4 'Коммунальн.77'.Txv"  db="Txv" sp="select_teploset_analog" param="teploset №22" />
+			  <item name="ЦТП № 1- 4 'Коммунальн.77'.Mpd"  db="Mpd" sp="select_teploset_analog" param="teploset №22" />
+			  <item name="ЦТП № 1- 4 'Коммунальн.77'.Pxv"  db="Pxv" sp="select_teploset_analog" param="teploset №22" />
+			  <item name="ЦТП № 1- 4 'Коммунальн.77'.V"  db="V" sp="select_teploset_analog" param="teploset №22" />
+			  <item name="ЦТП № 1- 4 'Коммунальн.77'.G"  db="G" sp="select_teploset_analog" param="teploset №22" />
+			  <item name="ЦТП № 1- 4 'Коммунальн.77'.M"  db="M" sp="select_teploset_analog" param="teploset №22" />
+		  </items>
+		  <items name="ЦТП № 1-17 'Алехина 1'">
+			  <item name="ЦТП № 1-17 'Алехина 1'.Txv"  db="Txv" sp="select_teploset_analog" param="teploset №23" />
+			  <item name="ЦТП № 1-17 'Алехина 1'.Mpd"  db="Mpd" sp="select_teploset_analog" param="teploset №23" />
+			  <item name="ЦТП № 1-17 'Алехина 1'.Pxv"  db="Pxv" sp="select_teploset_analog" param="teploset №23" />
+			  <item name="ЦТП № 1-17 'Алехина 1'.V"  db="V" sp="select_teploset_analog" param="teploset №23" />
+			  <item name="ЦТП № 1-17 'Алехина 1'.G"  db="G" sp="select_teploset_analog" param="teploset №23" />
+			  <item name="ЦТП № 1-17 'Алехина 1'.M"  db="M" sp="select_teploset_analog" param="teploset №23" />
+		  </items>
+		  <items name="ЦТП № 2-20 'Обл. больница'">
+			  <item name="ЦТП № 2-20 'Обл. больница'.Txv"  db="Txv" sp="select_teploset_analog" param="teploset №24" />
+			  <item name="ЦТП № 2-20 'Обл. больница'.Mpd"  db="Mpd" sp="select_teploset_analog" param="teploset №24" />
+			  <item name="ЦТП № 2-20 'Обл. больница'.Pxv"  db="Pxv" sp="select_teploset_analog" param="teploset №24" />
+			  <item name="ЦТП № 2-20 'Обл. больница'.V"  db="V" sp="select_teploset_analog" param="teploset №24" />
+			  <item name="ЦТП № 2-20 'Обл. больница'.G"  db="G" sp="select_teploset_analog" param="teploset №24" />
+			  <item name="ЦТП № 2-20 'Обл. больница'.M"  db="M" sp="select_teploset_analog" param="teploset №24" />
+		  </items>
+		  <items name="ЦТП № 3-14 'ул. Труда, 55'">
+			  <item name="ЦТП № 3-14 'ул. Труда, 55'.Txv"  db="Txv" sp="select_teploset_analog" param="teploset №25" />
+			  <item name="ЦТП № 3-14 'ул. Труда, 55'.Mpd"  db="Mpd" sp="select_teploset_analog" param="teploset №25" />
+			  <item name="ЦТП № 3-14 'ул. Труда, 55'.Pxv"  db="Pxv" sp="select_teploset_analog" param="teploset №25" />
+			  <item name="ЦТП № 3-14 'ул. Труда, 55'.V"  db="V" sp="select_teploset_analog" param="teploset №25" />
+			  <item name="ЦТП № 3-14 'ул. Труда, 55'.G"  db="G" sp="select_teploset_analog" param="teploset №25" />
+			  <item name="ЦТП № 3-14 'ул. Труда, 55'.M"  db="M" sp="select_teploset_analog" param="teploset №25" />
+		  </items>
+		  <items name="ЦТП № 3-17 'Инженерная 16'">
+			  <item name="ЦТП № 3-17 'Инженерная 16'.Txv"  db="Txv" sp="select_teploset_analog" param="teploset №26" />
+			  <item name="ЦТП № 3-17 'Инженерная 16'.Mpd"  db="Mpd" sp="select_teploset_analog" param="teploset №26" />
+			  <item name="ЦТП № 3-17 'Инженерная 16'.Pxv"  db="Pxv" sp="select_teploset_analog" param="teploset №26" />
+			  <item name="ЦТП № 3-17 'Инженерная 16'.V"  db="V" sp="select_teploset_analog" param="teploset №26" />
+			  <item name="ЦТП № 3-17 'Инженерная 16'.G"  db="G" sp="select_teploset_analog" param="teploset №26" />
+			  <item name="ЦТП № 3-17 'Инженерная 16'.M"  db="M" sp="select_teploset_analog" param="teploset №26" />
+		  </items>
+		  <items name="ЦТП № 4- 6 'Стахановская 8'">
+			  <item name="ЦТП № 4- 6 'Стахановская 8'.Txv"  db="Txv" sp="select_teploset_analog" param="teploset №27" />
+			  <item name="ЦТП № 4- 6 'Стахановская 8'.Mpd"  db="Mpd" sp="select_teploset_analog" param="teploset №27" />
+			  <item name="ЦТП № 4- 6 'Стахановская 8'.Pxv"  db="Pxv" sp="select_teploset_analog" param="teploset №27" />
+			  <item name="ЦТП № 4- 6 'Стахановская 8'.V"  db="V" sp="select_teploset_analog" param="teploset №27" />
+			  <item name="ЦТП № 4- 6 'Стахановская 8'.G"  db="G" sp="select_teploset_analog" param="teploset №27" />
+			  <item name="ЦТП № 4- 6 'Стахановская 8'.M"  db="M" sp="select_teploset_analog" param="teploset №27" />
+		  </items>
+	  </items>
+	  
+  
+  <items name="Геолинк">
+	  <items name="Инженерная 90">
+		  <item name="Инженерная 90.Входное давление"  db="ai1" sp="select_geolink_analog" param="ВНС111 +M1"  />
+		  <item name="Инженерная 90.Выходное давление"  db="ai2" sp="select_geolink_analog" param="ВНС111 +M1"  />
+	  </items>
+	  <items name="Инженерная 23">
+		  <item name="Инженерная 23.Входное давление"  db="ai1" sp="select_geolink_analog" param="ВНС112 +M1" />
+		  <item name="Инженерная 23.Выходное давление"  db="ai2" sp="select_geolink_analog" param="ВНС112 +M1" />
+	  </items>
+	  <items name="Гдовская 6">
+		  <item name="Гдовская 6.Входное давление"  db="ai1" sp="select_geolink_analog" param="ВНС113 +M1" />
+		  <item name="Гдовская 6.Выходное давление"  db="ai2" sp="select_geolink_analog" param="ВНС113 +M1" />
+	  </items>
+	  <items name="Коммунальная 46">
+		  <item name="Коммунальная 46.Входное давление"  db="ai1" sp="select_geolink_analog" param="ВНС114 +M1" />
+		  <item name="Коммунальная 46.Выходное давление"  db="ai2" sp="select_geolink_analog" param="ВНС114 +M1" />
+	  </items>
+	  <items name="Рижский пр. 41">
+		  <item name="Рижский пр. 41.Входное давление"  db="ai1" sp="select_geolink_analog" param="ВНС115 +M1" />
+		  <item name="Рижский пр. 41.Выходное давление"  db="ai2" sp="select_geolink_analog" param="ВНС115 +M1" />
+	  </items>
+	  <items name="Стахановская 8">
+		  <item name="Стахановская 8.Входное давление"  db="ai1" sp="select_geolink_analog" param="ВНС116 +M1" />
+		  <item name="Стахановская 8.Выходное давление"  db="ai2" sp="select_geolink_analog" param="ВНС116 +M1" />
+	  </items>
+	  <items name="Юбилейная 52">
+		  <item name="Юбилейная 52.Входное давление"  db="ai1" sp="select_geolink_analog" param="ВНС117 +M1" />
+		  <item name="Юбилейная 52.Выходное давление"  db="ai2" sp="select_geolink_analog" param="ВНС117 +M1" />
+	  </items>
+	  <items name="Красноармейская 31">
+		  <item name="Красноармейская 31.Входное давление"  db="ai1" sp="select_geolink_analog" param="ВНС118 +M1" />
+		  <item name="Красноармейская 31.Выходное давление"  db="ai2" sp="select_geolink_analog" param="ВНС118 +M1" />
+	  </items>
+	  <items name="Алехина 24">
+		  <item name="Алехина 24.Входное давление"  db="ai1" sp="select_geolink_analog" param="ВНС119 +M1" />
+		  <item name="Алехина 24.Выходное давление"  db="ai2" sp="select_geolink_analog" param="ВНС119 +M1" />
+	  </items>
+	  <items name="Толстого 42">
+		  <item name="Толстого 42.Входное давление"  db="ai1" sp="select_geolink_analog" param="ВНС120 +M1" />
+		  <item name="Толстого 42.Выходное давление"  db="ai2" sp="select_geolink_analog" param="ВНС120 +M1" />
+	  </items>
+	  <items name="Гагарина 5">
+		  <item name="Гагарина 5.Входное давление"  db="ai1" sp="select_geolink_analog" param="ВНС121 +M1" />
+		  <item name="Гагарина 5.Выходное давление"  db="ai2" sp="select_geolink_analog" param="ВНС121 +M1" />
+	  </items>
+	  <items name="Труда 53">
+		  <item name="Труда 53.Входное давление"  db="ai1" sp="select_geolink_analog" param="ВНС122 +M1" />
+		  <item name="Труда 53.Выходное давление"  db="ai2" sp="select_geolink_analog" param="ВНС122 +M1" />
+	  </items>
+	  <items name="Вокзальная 20">
+		  <item name="Вокзальная 20.Входное давление"  db="ai1" sp="select_geolink_analog" param="ВНС123 +M1" />
+		 	  </items>
+	  <items name="Юбилейная 90">
+		  <item name="Юбилейная 90.Входное давление"  db="ai1" sp="select_geolink_analog" param="ВНС124 +M1" />
+		 	  </items>
+	  <items name="Подъем №3">
+		  <item name="Подъем №3.Входное давление"  db="ai1" sp="select_geolink_analog" param="ВНС125 +M1" />
+		  <item name="Подъем №3.Выходное давление"  db="ai2" sp="select_geolink_analog" param="ВНС125 +M1" />
+	  </items>
+	  <items name="ВНС Шестака">
+		  <item name="ВНС Шестака.Входное давление"  db="ai1" sp="select_geolink_analog" param="ВНС126 +M1" />
+		  <item name="ВНС Шестака.Выходное давление"  db="ai2" sp="select_geolink_analog" param="ВНС126 +M1" />
+	  </items>
+  </items>
+	  <items name="Телескоп">
+		  <items name="КНС «ЗЗК 2» Ул. Ипподромная 50">
+			  <item name="КНС «ЗЗК 2» Ул. Ипподромная 50.Давление"  db="value" sp="select_teleskop_analog" param="KNS_03" />
+		  </items>
+		  <items name="КНС «ГКНС» Ул. Киселева 1">
+			  <item name="КНС «ГКНС» Ул. Киселева 1.Давление"  db="value" sp="select_teleskop_analog" param="uGKNS_1" />
+		  </items>
+		  <items name="КНС «Юбилейная» Ул. Великорецкая 1">
+			  <item name="КНС «Юбилейная» Ул. Великорецкая 1.Давление"  db="value" sp="select_teleskop_analog" param="uUbilenaj_1" />
+		  </items>
+		  <items name="КНС «РНС»  Крестовское шоссе 12">
+			  <item name="КНС «РНС»  Крестовское шоссе 12.Давление"  db="value" sp="select_teleskop_analog" param="uRNS1" />
+		  </items>
+		  <items name="КНС «Пригородная» Крестовское шоссе 74А">
+			  <item name="КНС «Пригородная» Крестовское шоссе 74А.Давление"  db="value" sp="select_teleskop_analog" param="KNS_06" />
+		  </items>
+		  <items name="КНС «КЭЧ» Ул. Юбилейная 48">
+			  <item name="КНС «КЭЧ» Ул. Юбилейная 48.Давление"  db="value" sp="select_teleskop_analog" param="KNS_08" />
+		  </items>
+		  <items name="КНС «Н. Васильева» Ул. Н. Васильева 11">
+			  <item name="КНС «Н. Васильева» Ул. Н. Васильева 11"  db="value" sp="select_teleskop_analog" param="KNS_11" />
+		  </items>
+		  <items name="ВНС «Южная» Ул. Киселева 3">
+			  <item name="ВНС «Южная» Ул. Киселева 3.Ток насоса"  db="A0" sp="select_teleskop_Zud_analog" param="VNS_ZudKvartal" />
+			  <item name="ВНС «Южная» Ул. Киселева 3.Входное давление"  db="A1" sp="select_teleskop_Zud_analog" param="VNS_ZudKvartal" />
+			  <item name="ВНС «Южная» Ул. Киселева 3.Выходное давление"  db="A3" sp="select_teleskop_Zud_analog" param="VNS_ZudKvartal" />
+		  </items>
+		  <items name="ВНС «Лесхоз»  Лесхоз">
+			  <item name="ВНС «Лесхоз»  Лесхоз.Давление АС1"  db="A0" sp="select_teleskop_analog" param="uVNS1_2" />
+			  <item name="ВНС «Лесхоз»  Лесхоз.Ток насоса АС1"  db="A2" sp="select_teleskop_analog" param="uVNS1_2" />
+			  <item name="ВНС «Лесхоз»  Лесхоз.Давление АС2"  db="A3" sp="select_teleskop_analog" param="uVNS1_2" />
+			  <item name="ВНС «Лесхоз»  Лесхоз.Температура АС2"  db="A5" sp="select_teleskop_analog" param="uVNS1_2" />
+			  <item name="ВНС «Лесхоз»  Лесхоз.Ток насоса АС2"  db="A6" sp="select_teleskop_analog" param="uVNS1_2" />
+			  <item name="ВНС «Лесхоз»  Лесхоз.Температура АС1"  db="A7" sp="select_teleskop_analog" param="uVNS1_2" />
+		  </items>
+		  <items name="ВНС «Западная» Ул. Юности 1">
+			  <item name="ВНС «Западная» Ул. Юности 1.Входное давление"  db="A0" sp="select_teleskop_Zap_analog" param="Unit_1924" />
+			  <item name="ВНС «Западная» Ул. Юности 1.Потребляемый ток"  db="A1" sp="select_teleskop_Zap_analog" param="Unit_1924" />
+			  <item name="ВНС «Западная» Ул. Юности 1.Выходное давление 1"  db="A2" sp="select_teleskop_Zap_analog" param="Unit_1924" />
+			  <item name="ВНС «Западная» Ул. Юности 1.Расход 1"  db="A3" sp="select_teleskop_Zap_analog" param="Unit_1924" />
+			  <item name="ВНС «Западная» Ул. Юности 1.Расход 2"  db="A4" sp="select_teleskop_Zap_analog" param="Unit_1924" />
+			  <item name="ВНС «Западная» Ул. Юности 1.Выходное давление 2"  db="A6" sp="select_teleskop_Zap_analog" param="Unit_1924" />
+			  <item name="ВНС «Западная» Ул. Юности 1.Температура"  db="A7" sp="select_teleskop_Zap_analog" param="Unit_1924" />
+		  </items>
+	  </items>
+	  <items name="ОСВ">
+		  <items name="ОСВ2">
+			  <item name="ОСВ2.Водовод 1"  db="q3" sp="select_osv2_analog" param="2" />
+			  <item name="ОСВ2.Водовод 2"  db="q1" sp="select_osv2_analog" param="2" />
+			  <item name="ОСВ2.Подача с 1п. на 3"  db="q2" sp="select_osv2_analog" param="2" />
+			  <item name="ОСВ2.Промывка"  db="q4" sp="select_osv2_analog" param="2" />
+			  <item name="ОСВ2.Показание прибора Водовод 1"  db="qc3" sp="select_osv2_analog" param="2" />
+			  <item name="ОСВ2.Показание прибораВодовод 2"  db="qc1" sp="select_osv2_analog" param="2" />
+			  <item name="ОСВ2.Показание прибораПодача с 1п. на 3"  db="qc2" sp="select_osv2_analog" param="2" />
+			  <item name="ОСВ2.Показание прибора ромывка"  db="qc4" sp="select_osv2_analog" param="2" />
+			  <item name="ОСВ2.Давление водовода 1"  db="p1" sp="select_osv2_analog" param="2" />
+			  <item name="ОСВ2.Давление водовода 2"  db="p2" sp="select_osv2_analog" param="2" />
+			  <item name="ОСВ2.Уровень воды в РЧВ"  db="h" sp="select_osv2_analog" param="2" />
+		  </items>
+		  <items name="ОСВ3">
+			  <item name="ОСВ3.Q1"  db="q1" sp="select_osv3_analog" param="3" />
+			  <item name="ОСВ3.Q2"  db="q2" sp="select_osv3_analog" param="3" />
+			  <item name="ОСВ3.Q3"  db="q3" sp="select_osv3_analog" param="3" />
+			  <item name="ОСВ3.Q4"  db="q4" sp="select_osv3_analog" param="3" />
+			  <item name="ОСВ3.Qc1"  db="Qc1" sp="select_osv3_analog" param="3" />
+			  <item name="ОСВ3.Qc2"  db="qc2" sp="select_osv3_analog" param="3" />
+			  <item name="ОСВ3.Qc3"  db="qc3" sp="select_osv3_analog" param="3" />
+			  <item name="ОСВ3.Qc4"  db="qc4" sp="select_osv3_analog" param="3" />
+			  <item name="ОСВ3.Qc5"  db="qc5" sp="select_osv3_analog" param="3" />
+			  <item name="ОСВ3.Давление водовода 1"  db="p1" sp="select_osv3_analog" param="3" />
+			  <item name="ОСВ3.Давление водовода 2"  db="p2" sp="select_osv3_analog" param="3" />
+			  <item name="ОСВ3.Уровень воды в РЧВ"  db="h" sp="select_osv3_analog" param="3" />
+		  </items>
+	  </items>
+  </items>
+</diagramm>

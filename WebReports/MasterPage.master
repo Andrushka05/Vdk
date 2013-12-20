@@ -1,0 +1,185 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html class="no-js">
+<head runat="server">
+    <title></title>
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    
+    <link href="bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet" media="screen">
+    <link href="js/easypiechart/jquery.easy-pie-chart.css" rel="stylesheet" media="screen">
+    <link href="assets/styles.css" rel="stylesheet" media="screen">
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+            <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+    <script src="js/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+    <script src="js/jquery-1.9.1.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="js/easypiechart/jquery.easy-pie-chart.js"></script>
+    <script src="assets/scripts.js"></script>
+    <script src="js/jquery-ui-1.10.3.js"></script>
+    <asp:ContentPlaceHolder ID="headerTempl" runat="server" />
+
+    <style type="text/css">
+        #logo {
+            height: 36px;
+            float: left;
+            margin: 2px;
+            padding: 0px 15px;
+        }
+    </style>
+
+    <script type="text/javascript">
+        $(function () {
+            GetMenu();
+            
+        });
+
+        function GetMenu() {
+            $.ajax({
+                url: "./Views/JGetMenu.ashx?type=0",
+                method: 'GET',
+                dataType: 'json',
+                success: function (data) {
+                    var res = "<ul class='nav nav-list bs-docs-sidenav nav-collapse collapse'>";
+                    var d = JSON.parse(data);
+                    for (var key in d.Table) {
+                        var lev = d.Table[key].level;
+                        var o = {};
+                        o.Id = d.Table[key].id;
+                        o.Parent = d.Table[key].parent;
+                        if (lev == 0) {
+                            res += "<li class='has-sub'><a href='Reports.aspx?group=" + d.Table[key].id + "' data-id='" + d.Table[key].id + "' data-parent='" + d.Table[key].parent + "'><i class='icon-chevron-right'></i>" + d.Table[key].name + "</a></li>";
+                        }
+                    };
+
+                    res += "</ul>";
+                    $("#sidebar").html(res);
+                    notGoLink();
+                },
+                timeout: 20000,
+                error: function (data) {
+                    var res = "<div class='alert alert-error'> <button type='button' class='close' data-dismiss='alert'>&times;</button><h4>Ошибка!</h4>При загрузке меню произошла ошибка. </div>";
+                    $("#content>.row-fluid").html(res);
+                }
+            });
+        }
+
+        function notGoLink(){
+            $("li.has-sub>a").click(function(event) {
+                event.preventDefault();
+                $("li.has-sub").removeClass("active");
+                $($(this).parent()).addClass("active");
+            })
+        }
+    </script>
+
+</head>
+<body>
+    <div class="navbar navbar-fixed-top">
+        <div class="navbar-inner">
+            <div class="container-fluid">
+                <div>
+                    <img src="./images/logo.png" alt="Система отчётов" id="logo" /></div>
+                <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"><span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </a>
+                <a class="brand" href="#">Водоканал</a>
+                <div class="nav-collapse collapse">
+                    <ul class="nav pull-right">
+                        <li class="dropdown">
+                            <a href="#" role="button" class="dropdown-toggle" data-toggle="dropdown"><i class="icon-user"></i>Vincent Gabriel <i class="caret"></i>
+
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a tabindex="-1" href="#">Profile</a>
+                                </li>
+                                <li class="divider"></li>
+                                <li>
+                                    <a tabindex="-1" href="login.html">Logout</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul class="nav">
+                        <li class="active">
+                            <a href="trends.aspx">Главная</a>
+                        </li>
+                        <li class="dropdown">
+                            <a href="Reports.aspx" data-toggle="dropdown" class="dropdown-toggle">Отчёты<b class="caret"></b>
+
+                            </a>
+                            <ul class="dropdown-menu" id="menu1">
+                                <li>
+                                    <a href="Reports.aspx">Tools <i class="icon-arrow-right"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#">SEO Settings</a>
+                                </li>
+                                <li>
+                                    <a href="#">Other Link</a>
+                                </li>
+                                <li class="divider"></li>
+                                <li>
+                                    <a href="#">Other Link</a>
+                                </li>
+                                <li>
+                                    <a href="#">Other Link</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" role="button" class="dropdown-toggle" data-toggle="dropdown">Графики</a>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" role="button" class="dropdown-toggle" data-toggle="dropdown">Карта <i class="caret"></i>
+
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a tabindex="-1" href="#">User List</a>
+                                </li>
+                                <li>
+                                    <a tabindex="-1" href="#">Search</a>
+                                </li>
+                                <li>
+                                    <a tabindex="-1" href="#">Permissions</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <!--/.nav-collapse -->
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row-fluid">
+            <div class="span3" id="sidebar">
+                
+            </div>
+
+            <!--/span-->
+            <div class="span9" id="content">
+                <div class="row-fluid">
+                    
+                    <asp:ContentPlaceHolder ID="bodyTempl" runat="server" />
+                </div>
+
+                <!-- /block -->
+            </div>
+        </div>
+
+        
+        <footer>
+            <p>&copy; Водоканал 2013</p>
+        </footer>
+    </div>
+
+
+</body>
+</html>
